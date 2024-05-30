@@ -1,12 +1,36 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const [dynamicTextIndex, setDynamicTextIndex] = useState(0);
   const [email, setEmail] = useState("");
+
+  // Define an array of dynamic text values
+  const dynamicTextValues = [
+    "Developer",
+    "Data Enthusiast",
+    "Cybersecurity Geek",
+    "Pianist",
+    "Social Dancer",
+  ];
+
+  useEffect(() => {
+    // Set an interval to update the dynamic text index every 3 seconds
+    const intervalId = setInterval(() => {
+      // Calculate the next index
+      const nextIndex = (dynamicTextIndex + 1) % dynamicTextValues.length;
+      // Update the dynamic text index
+      setDynamicTextIndex(nextIndex);
+    }, 5000); // Change text every 3 seconds
+
+    // Clear the interval when component unmounts to avoid memory leaks
+    return () => clearInterval(intervalId);
+  }, [dynamicTextIndex]); // Re-run effect when dynamicTextIndex changes
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Handle form submission
   };
 
   return (
@@ -15,14 +39,12 @@ const Hero = () => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Solid - A Complete SaaS Web Template
-              </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
+                Hi, I'm <span className="text-primary">Benjamin Zapata</span>
+              </h1>
+              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
+                a {dynamicTextValues[dynamicTextIndex]}.
+                {/* Display dynamic text here */}
               </h1>
               <p>
                 Solid Pro - Packed with all the key integrations you need for
@@ -79,18 +101,15 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative aspect-[700/444] w-full">
+
+                <div className="relative w-full">
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/hero/prof-headshot-hd-transparent.png"
                     alt="Hero"
-                    fill
-                  />
-                  <Image
-                    className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
-                    alt="Hero"
-                    fill
+                    layout="responsive"
+                    width={700}
+                    height={444}
                   />
                 </div>
               </div>

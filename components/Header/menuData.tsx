@@ -9,21 +9,33 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Features",
+    title: "Experience",
     newTab: false,
-    path: "/#features",
+    path: "/experience",
   },
   {
     id: 2.1,
-    title: "Blog",
+    title: "Projects",
     newTab: false,
-    path: "/blog",
+    path: "/projects",
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "Education",
     newTab: false,
-    path: "/docs",
+    path: "/education",
+  },
+  {
+    id: 2.5,
+    title: "Interests",
+    newTab: false,
+    path: "/interests",
+  },
+  {
+    id: 2.7,
+    title: "Contact",
+    newTab: false,
+    path: "/contact",
   },
   {
     id: 3,
@@ -67,13 +79,6 @@ const menuData: Menu[] = [
         path: "/error",
       },
     ],
-  },
-
-  {
-    id: 4,
-    title: "Support",
-    newTab: false,
-    path: "/support",
   },
 ];
 
