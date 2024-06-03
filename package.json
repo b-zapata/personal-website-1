@@ -1,9 +1,12 @@
 {
   "name": "solid-nextjs",
   "version": "0.2.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
