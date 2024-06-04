@@ -126,7 +126,7 @@ const Hero = () => {
                 <div className="relative w-3/4">
                   <Image
                     className="rounded-full object-cover shadow-solid-l dark:hidden"
-                    src="/images/hero/prof-headshot-og-square-lower.jpg"
+                    src="images/hero/prof-headshot-og-square-lower.jpg"
                     alt="Hero"
                     layout="responsive"
                     width={700}
@@ -134,7 +134,7 @@ const Hero = () => {
                   />
                   <Image
                     className="hidden rounded-full object-cover shadow-solid-l dark:block"
-                    src="/images/hero/prof-headshot-og-square-lower.jpg"
+                    src="images/hero/prof-headshot-og-square-lower.jpg"
                     alt="Hero"
                     layout="responsive"
                     width={200}
