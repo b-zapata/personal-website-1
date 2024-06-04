@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Deploy Website
 
 on:
   push:
@@ -6,31 +6,22 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Include this step if you have dependencies to install
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v2
-      #   with:
-      #     node-version: '14'
-
-      # Include this step if you have a build process
-      # - name: Install dependencies
-      #   run: npm install
-
-      # Include this step if you have a build process
-      # - name: Build project
-      #   run: npm run build
-
-      - name: Deploy to GitHub Pages
+      - name: Install dependencies
         run: |
-          # Ensure we are in the repository root
-          cd ${{ github.workspace }}
+          npm install
+          npm run build
+
+      - name: Deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
           # Ensure the 'out' directory exists
           if [ -d "out" ]; then
             # Move the contents of the 'out' directory to the root
@@ -41,9 +32,8 @@ jobs:
             exit 1
           fi
           # Configure git
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          # Commit and push changes
-          git add .
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
           git commit -m 'Deploy site from out directory'
-          git push origin main
+          git push -u origin HEAD:gh-pages --force
