@@ -1,0 +1,49 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Include this step if you have dependencies to install
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v2
+      #   with:
+      #     node-version: '14'
+
+      # Include this step if you have a build process
+      # - name: Install dependencies
+      #   run: npm install
+
+      # Include this step if you have a build process
+      # - name: Build project
+      #   run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: |
+          # Ensure we are in the repository root
+          cd ${{ github.workspace }}
+          # Ensure the 'out' directory exists
+          if [ -d "out" ]; then
+            # Move the contents of the 'out' directory to the root
+            mv out/* .
+            mv out/.* . || true  # Move hidden files if any
+          else
+            echo "Error: 'out' directory does not exist."
+            exit 1
+          fi
+          # Configure git
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          # Commit and push changes
+          git add .
+          git commit -m 'Deploy site from out directory'
+          git push origin main
