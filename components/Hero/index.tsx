@@ -102,21 +102,21 @@ const Hero = () => {
             <div className="animate_right md:w-1/30 hidden lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
-                  src="/images/shape/shape-01.png"
+                  src="images/shape/shape-01.png"
                   alt="shape"
                   width={46}
                   height={246}
                   className="absolute -left-11.5 top-0"
                 />
                 <Image
-                  src="/images/shape/shape-02.svg"
+                  src="images/shape/shape-02.svg"
                   alt="shape"
                   width={36.9}
                   height={36.7}
                   className="absolute bottom-0 right-0 z-10"
                 />
                 <Image
-                  src="/images/shape/shape-03.svg"
+                  src="images/shape/shape-03.svg"
                   alt="shape"
                   width={21.64}
                   height={21.66}

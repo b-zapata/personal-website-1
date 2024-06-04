@@ -33,14 +33,14 @@ const Hero = () => {
             >
               <div className="relative flex w-full justify-end">
                 <Image
-                  src="/images/icon/briefcase-square-ai.jpeg"
+                  src="images/icon/briefcase-square-ai.jpeg"
                   alt="About"
                   className="rounded-full object-cover dark:hidden "
                   width={1024}
                   height={1024}
                 />
                 <Image
-                  src="/images/icon/briefcase-square-ai.jpeg"
+                  src="images/icon/briefcase-square-ai.jpeg"
                   alt="About"
                   className="hidden rounded-full object-cover dark:block "
                   width={1024}
