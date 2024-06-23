@@ -52,10 +52,11 @@ const Hero = () => {
                 />
               </h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh
-                venenatis cras sed felis eget velit aliquet sagittis id.
-                Pellentesque sit amet porttitor eget dolor morbi.
+                HYEHEYEHEYEHHEEYHEYEHEYEHY Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Nibh venenatis cras sed felis
+                eget velit aliquet sagittis id. Pellentesque sit amet porttitor
+                eget dolor morbi.
               </p>
 
               <div>
