@@ -2,6 +2,7 @@
 
 const nextConfig = {
   basePath: "/personal-website-1/",
+  assetPrefix: "/personal-website-1/",
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
