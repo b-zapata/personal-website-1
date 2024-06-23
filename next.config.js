@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  basePath: "/personal-website-1/",
-  assetPrefix: "/personal-website-1/",
+  basePath: "",
+  assetPrefix: "",
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
