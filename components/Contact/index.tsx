@@ -111,6 +111,19 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
+                <p>
+                  I will respond within 24 hours. You may also message me on{" "}
+                  <a
+                    href="https://www.linkedin.com/in/benjamin-zapata/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    LinkedIn
+                  </a>
+                  .
+                </p>
+
                 <div className="flex flex-wrap justify-end gap-4 xl:justify-between ">
                   <button
                     aria-label="send message"
@@ -133,18 +146,6 @@ const Contact = () => {
                   </button>
                 </div>
               </form>
-              <p>
-                I will respond within 24 hours. You may also message me on{" "}
-                <a
-                  href="https://www.linkedin.com/in/benjamin-zapata/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary"
-                >
-                  LinkedIn
-                </a>
-                .
-              </p>
             </motion.div>
           </div>
         </div>
