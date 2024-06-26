@@ -41,8 +41,6 @@ const Course = () => {
             className="animate_top mx-auto text-center"
           >
             <a
-              href="/documents/Official Transcript - Winter 2024.pdf"
-              download="Benjamin Zapata - Online Resume.pdf"
               aria-label="Download Resume button"
               className="rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
             >
