@@ -39,9 +39,7 @@ const Course = () => {
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
             className="animate_top mx-auto text-center"
-          >
-            <p>Feel free to contact me for an official grades transcript.</p>
-          </motion.div>
+          ></motion.div>
           {/* <!-- Download grades transcript button end --> */}
 
           <div className="mt-12.5 flex grid grid-cols-1 gap-7.5 text-center md:grid-cols-2 lg:mt-15 lg:grid-cols-4 xl:mt-20 xl:gap-12.5">
