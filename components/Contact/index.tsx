@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
   /**
@@ -54,16 +55,13 @@ const Contact = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
+              className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-full lg:w-full xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Send a message
               </h2>
 
-              <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
-              >
+              <form action="https://formspree.io/f/xovaarrr" method="POST">
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
@@ -107,7 +105,7 @@ const Contact = () => {
                       type="checkbox"
                       className="peer sr-only"
                     />
-                    <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                    <span className="group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded border-gray-300 bg-gray-100 text-blue-600 peer-checked:bg-primary dark:border-gray-600 dark:bg-gray-700">
                       <svg
                         className="opacity-0 peer-checked:group-[]:opacity-100"
                         width="10"
@@ -154,52 +152,6 @@ const Contact = () => {
                   </button>
                 </div>
               </form>
-            </motion.div>
-
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  y: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 2, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
-            >
-              <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Find us
-              </h2>
-
-              <div className="5 mb-7">
-                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Our Loaction
-                </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
-              </div>
-              <div className="5 mb-7">
-                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Email Address
-                </h3>
-                <p>
-                  <a href="#">yourmail@domainname.com</a>
-                </p>
-              </div>
-              <div>
-                <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Phone Number
-                </h4>
-                <p>
-                  <a href="#">+009 42334 6343 843</a>
-                </p>
-              </div>
             </motion.div>
           </div>
         </div>
