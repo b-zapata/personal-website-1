@@ -105,12 +105,14 @@ const Hero = () => {
                     />
                   </a>
 
-                  <button
+                  <a
+                    href="/documents/Resume - Online Copy.pdf"
+                    download="Benjamin Zapata - Online Resume.pdf"
                     aria-label="Download Resume button"
                     className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                   >
                     Download Resume
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
