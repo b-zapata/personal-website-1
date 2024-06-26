@@ -64,24 +64,30 @@ const Hero = () => {
                   CONNECT WITH ME
                 </h4>
                 <div className="mt-5 flex items-center space-x-5">
+                  <a
+                    href="https://github.com/b-zapata"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src={"images/brand/brand-github-alt2.svg"}
+                      width={36}
+                      height={36}
+                      className="hidden dark:block"
+                      alt="title"
+                    />
+                    <Image
+                      src={"images/brand/brand-github.svg"}
+                      width={36}
+                      height={36}
+                      className="dark:hidden"
+                      alt="title"
+                    />
+                  </a>
                   <Image
                     src={"images/brand/brand-linkedin.svg"}
                     width={36}
                     height={36}
-                    alt="title"
-                  />
-                  <Image
-                    src={"images/brand/brand-github-alt2.svg"}
-                    width={36}
-                    height={36}
-                    className="hidden dark:block"
-                    alt="title"
-                  />
-                  <Image
-                    src={"images/brand/brand-github.svg"}
-                    width={36}
-                    height={36}
-                    className="dark:hidden"
                     alt="title"
                   />
                   <Image
