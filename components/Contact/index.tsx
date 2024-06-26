@@ -60,18 +60,6 @@ const Contact = () => {
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
                 Message Me
               </h2>
-              <p>
-                I will respond within 24 hours. You may also message me on{" "}
-                <a
-                  href="https://www.linkedin.com/in/benjamin-zapata/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn
-                </a>
-                .
-              </p>
-
               <form action="https://formspree.io/f/xovaarrr" method="POST">
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
@@ -145,6 +133,18 @@ const Contact = () => {
                   </button>
                 </div>
               </form>
+              <p>
+                I will respond within 24 hours. You may also message me on{" "}
+                <a
+                  href="https://www.linkedin.com/in/benjamin-zapata/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary"
+                >
+                  LinkedIn
+                </a>
+                .
+              </p>
             </motion.div>
           </div>
         </div>
