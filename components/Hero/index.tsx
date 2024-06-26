@@ -65,6 +65,18 @@ const Hero = () => {
                 </h4>
                 <div className="mt-5 flex items-center space-x-5">
                   <a
+                    href="https://www.linkedin.com/in/benjamin-zapata/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src={"images/brand/brand-linkedin.svg"}
+                      width={36}
+                      height={36}
+                      alt="title"
+                    />
+                  </a>
+                  <a
                     href="https://github.com/b-zapata"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -84,18 +96,15 @@ const Hero = () => {
                       alt="title"
                     />
                   </a>
-                  <Image
-                    src={"images/brand/brand-linkedin.svg"}
-                    width={36}
-                    height={36}
-                    alt="title"
-                  />
-                  <Image
-                    src={"images/icon/icon-email.svg"}
-                    width={36}
-                    height={36}
-                    alt="title"
-                  />
+                  <a href="/contact" rel="noopener noreferrer">
+                    <Image
+                      src={"images/icon/icon-email.svg"}
+                      width={36}
+                      height={36}
+                      alt="title"
+                    />
+                  </a>
+
                   <button
                     aria-label="Download Resume button"
                     className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
