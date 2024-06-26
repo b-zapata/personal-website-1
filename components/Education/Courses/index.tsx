@@ -40,12 +40,7 @@ const Course = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto text-center"
           >
-            <a
-              aria-label="Download Resume button"
-              className="rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
-            >
-              Download Grades Transcript (Winter 2024)
-            </a>
+            <p>Feel free to contact me for an official grades transcript.</p>
           </motion.div>
           {/* <!-- Download grades transcript button end --> */}
 
