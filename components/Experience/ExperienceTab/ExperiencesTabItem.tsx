@@ -13,11 +13,11 @@ const ExperiencesTabItem = ({
 
   return (
     <>
-      <div className="overflow-hidden px-4 py-25 md:px-8 lg:py-25 xl:py-25 2xl:px-0">
+      <div>
         {experiences.map((experience, index) => (
           <div
             key={index}
-            className="flex flex-wrap items-center justify-center gap-8"
+            className="flex flex-wrap items-center justify-center gap-8 py-10"
           >
             <Image
               src="/images/logo/BYU-logo.png"
