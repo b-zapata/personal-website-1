@@ -46,6 +46,20 @@ const experiencesTabData: ExperienceTab[] = [
         bulletPoint3:
           "Pioneered development in the Mendix platform to offer personalized training to 2 team members",
       },
+      {
+        startDate: "Sep 2018",
+        endDate: "Mar 2020",
+        title: "Cafeteria Supervisor",
+        employer: "Missionary Training Center",
+        logo: "/images/logo/mtc-logo.png",
+        location: "Provo, UT",
+        bulletPoint1:
+          "Led and organized shifts of 20+ workers to increase efficiency by 10-15 minutes",
+        bulletPoint2:
+          "Oversaw training of subordinates to enhance customer service",
+        bulletPoint3:
+          "Conducted monthly employee evaluations to improve shift performance",
+      },
     ],
   },
   {
