@@ -87,12 +87,9 @@ const experiencesTabData: ExperienceTab[] = [
         employer: "BYU Student Association",
         logo: "",
         location: "Provo, UT",
-        bulletPoint1:
-          "Averaged 70+ work hours a week teaching life skills to people from various backgrounds",
-        bulletPoint2:
-          "Served in leadership positions of increasing scope to boost missionary results and training",
-        bulletPoint3:
-          "Fulfilled key administrative and logistical responsibilities to ensure well-being of 150+ missionaries",
+        bulletPoint1: "",
+        bulletPoint2: "",
+        bulletPoint3: "",
       },
       {
         startDate: "Sep 2019",
@@ -119,39 +116,20 @@ const experiencesTabData: ExperienceTab[] = [
         employer: "Brigham Young University",
         logo: "/images/logo/BYU-logo.png",
         location: "Provo, UT",
-        bulletPoint1:
-          "Architeted new math major website to improve traffic by 30%",
-        bulletPoint2:
-          "Modernize department equipment to ensure up-to-date technology for faculty and students",
-        bulletPoint3:
-          "Offer on-demand tech support to faculty and students to enhance learning experience",
+        bulletPoint1: "",
+        bulletPoint2: "",
+        bulletPoint3: "",
       },
       {
-        startDate: "Feb 2021",
-        endDate: "Mar 2023",
-        title: "Volunteer Representative",
-        employer: "The Church of Jesus Christ of Latter-day Saints",
+        startDate: "",
+        endDate: "",
+        title: "High School Senior Who Will Change the World",
+        employer: "Utah Valley Magazine",
         logo: "",
-        location: "Santiago, Chile & Rio de Janeiro, Brazil",
+        location: "Orem, UT",
         bulletPoint1: "See the full article here",
-        bulletPoint2:
-          "Served in leadership positions of increasing scope to boost missionary results and training",
-        bulletPoint3:
-          "Fulfilled key administrative and logistical responsibilities to ensure well-being of 150+ missionaries",
-      },
-      {
-        startDate: "Mar 2020",
-        endDate: "Dec 2020",
-        title: "Mendix Developer",
-        employer: "Brigham Young University - Student Life Technology",
-        logo: "",
-        location: "Provo, UT",
-        bulletPoint1:
-          "Architected 3 department websites with API integrations to Strava and other platforms to improve user experience",
-        bulletPoint2:
-          "Conducted regular consultations with stakeholders to align website development with their expectations",
-        bulletPoint3:
-          "Pioneered development in the Mendix platform to offer personalized training to 2 team members",
+        bulletPoint2: "",
+        bulletPoint3: "",
       },
     ],
   },
