@@ -46,7 +46,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="overflow-hidden px-4 py-25 md:px-8 lg:py-25 xl:py-25 2xl:px-0">
+    <div className="overflow-hidden px-4 py-25 md:px-8 lg:py-25 xl:py-25 2xl:px-0">
       {jobs.map((job, index) => (
         <div
           key={index}
@@ -97,7 +97,7 @@ const Timeline = () => {
           </div>
         </div>
       ))}
-    </section>
+    </div>
   );
 };
 
