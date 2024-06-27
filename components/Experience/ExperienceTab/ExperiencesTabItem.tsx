@@ -20,7 +20,7 @@ const ExperiencesTabItem = ({
             className="flex flex-wrap items-center justify-center gap-8 py-10"
           >
             <Image
-              src="/images/logo/BYU-logo.png"
+              src={experience.logo}
               alt="BYU Logo"
               width={150}
               height={150}

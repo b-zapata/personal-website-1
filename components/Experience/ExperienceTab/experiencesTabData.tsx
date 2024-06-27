@@ -9,7 +9,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "Present",
         title: "Computer Staff Representative",
         employer: "Brigham Young University - Math Department",
-        logo: "",
+        logo: "/images/logo/BYU-logo.png",
         location: "Hermosillo, Mexico",
         bulletPoint1:
           "Architeted new math major website to improve traffic by 30%",
@@ -23,7 +23,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "Mar 2023",
         title: "Volunteer Representative",
         employer: "The Church of Jesus Christ of Latter-day Saints",
-        logo: "",
+        logo: "/images/logo/church-logo.png",
         location: "Santiago, Chile & Rio de Janeiro, Brazil",
         bulletPoint1:
           "Averaged 70+ work hours a week teaching life skills to people from various backgrounds",
@@ -37,7 +37,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "Dec 2020",
         title: "Mendix Developer",
         employer: "Brigham Young University - Student Life Technology",
-        logo: "",
+        logo: "/images/logo/BYU-logo.png",
         location: "Provo, UT",
         bulletPoint1:
           "Architected 3 department websites with API integrations to Strava and other platforms to improve user experience",
