@@ -10,9 +10,9 @@ const experiencesTabData: ExperienceTab[] = [
         title: "Computer Staff Representative",
         employer: "Brigham Young University - Math Department",
         logo: "/images/logo/BYU-logo.png",
-        location: "Hermosillo, Mexico",
+        location: "Provo, UT",
         bulletPoint1:
-          "Architeted new math major website to improve traffic by 30%",
+          "Architected new math major website to improve traffic by 30%",
         bulletPoint2:
           "Modernize department equipment to ensure up-to-date technology for faculty and students",
         bulletPoint3:
@@ -66,26 +66,27 @@ const experiencesTabData: ExperienceTab[] = [
     id: "tabTwo",
     experiences: [
       {
-        startDate: "Jul 2023",
+        startDate: "Mar 2023",
         endDate: "Present",
-        title: "Computer Staff Representative",
-        employer: "Brigham Young University - Math Department",
-        logo: "",
+        title: "Volunteer Developer & Analyst",
+        employer:
+          "The Church of Jesus Christ of Latter-day Saints - Mexico Hermosillo Mission",
+        logo: "/images/logo/church-logo.png",
         location: "Hermosillo, Mexico",
         bulletPoint1:
-          "Architeted new math major website to improve traffic by 30%",
+          "Engineered a complex data-reporting system to provide 500+ leadership with thousands of rows of key data",
         bulletPoint2:
-          "Modernize department equipment to ensure up-to-date technology for faculty and students",
+          "Created 10+ professional, filterable dashboards to visualize 1000+ key statistics",
         bulletPoint3:
-          "Offer on-demand tech support to faculty and students to enhance learning experience",
+          "Managed access rights for hundreds of daily users to ensure data integrity and security",
       },
       {
-        startDate: "Feb 2021",
-        endDate: "Mar 2023",
-        title: "Volunteer Representative",
-        employer: "The Church of Jesus Christ of Latter-day Saints",
+        startDate: "Jan 2024",
+        endDate: "Present",
+        title: "BYU Salsa Club President",
+        employer: "BYU Student Association",
         logo: "",
-        location: "Santiago, Chile & Rio de Janeiro, Brazil",
+        location: "Provo, UT",
         bulletPoint1:
           "Averaged 70+ work hours a week teaching life skills to people from various backgrounds",
         bulletPoint2:
@@ -94,18 +95,17 @@ const experiencesTabData: ExperienceTab[] = [
           "Fulfilled key administrative and logistical responsibilities to ensure well-being of 150+ missionaries",
       },
       {
-        startDate: "Mar 2020",
-        endDate: "Dec 2020",
-        title: "Mendix Developer",
-        employer: "Brigham Young University - Student Life Technology",
-        logo: "",
+        startDate: "Sep 2019",
+        endDate: "Mar 2020",
+        title: "Elders Quorum President",
+        employer: "The Church of Jesus Christ of Latter-day Saints",
+        logo: "/images/logo/church-logo.png",
         location: "Provo, UT",
         bulletPoint1:
-          "Architected 3 department websites with API integrations to Strava and other platforms to improve user experience",
+          "Led a five-person team in creating a welfare plan for 60+ quorum members during the COVID pandemic outbreak",
         bulletPoint2:
-          "Conducted regular consultations with stakeholders to align website development with their expectations",
-        bulletPoint3:
-          "Pioneered development in the Mendix platform to offer personalized training to 2 team members",
+          "Oversaw and trained quorum leaders and teachers to improve performance",
+        bulletPoint3: "Organized monthly events to build quorum unity",
       },
     ],
   },
@@ -113,12 +113,12 @@ const experiencesTabData: ExperienceTab[] = [
     id: "tabThree",
     experiences: [
       {
-        startDate: "Jul 2023",
-        endDate: "Present",
-        title: "Computer Staff Representative",
-        employer: "Brigham Young University - Math Department",
-        logo: "",
-        location: "Hermosillo, Mexico",
+        startDate: "",
+        endDate: "",
+        title: "Merit-based Scholarship Recipient, 4 Consecutive Years",
+        employer: "Brigham Young University",
+        logo: "/images/logo/BYU-logo.png",
+        location: "Provo, UT",
         bulletPoint1:
           "Architeted new math major website to improve traffic by 30%",
         bulletPoint2:
@@ -133,8 +133,7 @@ const experiencesTabData: ExperienceTab[] = [
         employer: "The Church of Jesus Christ of Latter-day Saints",
         logo: "",
         location: "Santiago, Chile & Rio de Janeiro, Brazil",
-        bulletPoint1:
-          "Averaged 70+ work hours a week teaching life skills to people from various backgrounds",
+        bulletPoint1: "See the full article here",
         bulletPoint2:
           "Served in leadership positions of increasing scope to boost missionary results and training",
         bulletPoint3:
