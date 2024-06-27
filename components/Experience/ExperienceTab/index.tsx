@@ -46,7 +46,7 @@ const ExperiencesTab = () => {
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
-            className="animate_top mb-0 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-0 xl:gap-12.5"
+            className="animate_top mb-10 flex flex-wrap justify-center rounded-[10px] border border-stroke bg-white shadow-solid-5 dark:border-strokedark dark:bg-blacksection dark:shadow-solid-6 md:flex-nowrap md:items-center lg:gap-7.5 xl:mb-10 xl:gap-12.5"
           >
             <div
               onClick={() => setCurrentTab("tabOne")}
@@ -110,7 +110,7 @@ const ExperiencesTab = () => {
             whileInView="visible"
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: true }}
-            className="overflow-hidden px-4 py-5 md:px-8 lg:py-5 xl:py-5 2xl:px-0"
+            className="overflow-hidden px-4 py-0 md:px-8 lg:py-0 xl:py-0 2xl:px-0"
             //className="animate_top mx-auto max-w-c-1154"
           >
             {experiencesTabData.map((experience, key) => (

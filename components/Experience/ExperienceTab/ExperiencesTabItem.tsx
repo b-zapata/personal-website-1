@@ -13,7 +13,7 @@ const ExperiencesTabItem = ({
 
   return (
     <>
-      <div className="overflow-hidden px-4 py-25 md:px-8 lg:py-25 xl:py-25 2xl:px-0">
+      <div className="overflow-hidden px-4 py-0 md:px-8 lg:py-0 xl:py-0 2xl:px-0">
         {experiences.map((experience, index) => (
           <div
             key={index}
