@@ -90,9 +90,9 @@ const experiencesTabData: ExperienceTab[] = [
         bulletPoint1:
           "Led a team of ~15 volunteers in increasing average attendance from 0 to 60 within one semester",
         bulletPoint2:
-          "Initiated the creation of a student live band to enhance experience through regular performances",
+          "Initiated the creation of a student live band to enhance engagement through regular performances",
         bulletPoint3:
-          "Managed schedule for teachers and DJs to ensure a consistent and enjoyable environment",
+          "Managed schedule for teachers and DJs to ensure a consistent and enjoyable experience",
       },
       {
         startDate: "Sep 2019",
