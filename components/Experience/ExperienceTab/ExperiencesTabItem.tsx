@@ -19,39 +19,38 @@ const ExperiencesTabItem = ({
             key={index}
             className="flex flex-wrap items-center justify-center gap-8 py-10"
           >
-            {/*motion div opening tag should go here */}
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
+            <Image
+              src={experience.logo}
+              alt="BYU Logo"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
 
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_left w-full"
+            {/* <!-- Card begins here --> */}
+            <div
+              key={index}
+              className="w-full max-w-[1200px] rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] px-7.5 py-15 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark md:px-12.5 xl:px-17.5 xl:py-12"
             >
-              <Image
-                src={experience.logo}
-                alt="BYU Logo"
-                width={150}
-                height={150}
-                className="rounded-lg"
-              />
+              <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      x: -20,
+                    },
 
-              {/* <!-- Card begins here --> */}
-              <div
-                key={index}
-                className="w-full max-w-[1200px] rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] px-7.5 py-15 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark md:px-12.5 xl:px-17.5 xl:py-12"
-              >
-                <div className="flex flex-wrap gap-8 md:flex-nowrap md:items-center md:justify-between md:gap-0">
+                    visible: {
+                      opacity: 1,
+                      x: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_left w-full"
+                >
                   <h2 className="xl:text-sectionsubtitle mb-4 w-11/12 text-3xl font-bold text-black dark:text-white">
                     {experience.title}
                   </h2>
@@ -68,10 +67,9 @@ const ExperiencesTabItem = ({
                   {experience.bulletPoint3 && (
                     <p className="my-5">⚡ {experience.bulletPoint3}</p>
                   )}
-                </div>
+                </motion.div>
               </div>
-            </motion.div>
-            {/*motion div closing tag should go here */}
+            </div>
           </div>
         ))}
       </div>
