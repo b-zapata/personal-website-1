@@ -19,32 +19,13 @@ const ExperiencesTabItem = ({
             key={index}
             className="flex flex-wrap items-center justify-center gap-8 py-10"
           >
-            <motion.div
-              variants={{
-                hidden: {
-                  opacity: 0,
-                  x: -20,
-                },
-
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              transition={{ duration: 1, delay: 0.1 }}
-              viewport={{ once: true }}
-              className="animate_left w-full"
-            >
-              <Image
-                src={experience.logo}
-                alt="BYU Logo"
-                width={150}
-                height={150}
-                className="rounded-lg"
-              />
-            </motion.div>
+            <Image
+              src={experience.logo}
+              alt="BYU Logo"
+              width={150}
+              height={150}
+              className="rounded-lg"
+            />
 
             {/* <!-- Card begins here --> */}
             <div
