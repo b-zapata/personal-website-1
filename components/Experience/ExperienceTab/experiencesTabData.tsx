@@ -102,7 +102,7 @@ const experiencesTabData: ExperienceTab[] = [
       },
       {
         startDate: "Sep 2019",
-        endDate: "Mar 2020",
+        endDate: "Apr 2020",
         title: "Elders Quorum President",
         employer: "The Church of Jesus Christ of Latter-day Saints",
         logo: "/images/logo/church-logo.png",
@@ -138,7 +138,7 @@ const experiencesTabData: ExperienceTab[] = [
         employer: "Utah Valley Magazine",
         logo: "/images/logo/utah-valley-magazine-logo.png",
         location: "Orem, UT",
-        bulletPoint1: "See the full article here",
+        bulletPoint1: "See the full article here (page 30)",
         bulletPoint2: "",
         bulletPoint3: "",
         link: "https://utahvalleymag.com/product/may-june-2018/",
