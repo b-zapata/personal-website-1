@@ -53,7 +53,11 @@ const ExperiencesTabItem = ({
                 >
                   <p className="mb-3">
                     <i>
-                      {experience.startDate} - {experience.endDate} |{" "}
+                      {experience.startDate && experience.endDate && (
+                        <span>
+                          {experience.startDate} - {experience.endDate} |{" "}
+                        </span>
+                      )}
                       {experience.location}
                     </i>
                   </p>
