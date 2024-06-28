@@ -51,6 +51,12 @@ const ExperiencesTabItem = ({
                   viewport={{ once: true }}
                   className="animate_left w-full"
                 >
+                  <p className="mb-3">
+                    <i>
+                      {experience.startDate} - {experience.endDate} |{" "}
+                      {experience.location}
+                    </i>
+                  </p>
                   <h2 className="xl:text-sectionsubtitle mb-4 w-11/12 text-3xl font-bold text-black dark:text-white">
                     {experience.title}
                   </h2>
