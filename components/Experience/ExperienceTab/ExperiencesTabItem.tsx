@@ -58,8 +58,22 @@ const ExperiencesTabItem = ({
                     {experience.employer}
                   </h3>
                   {/* Conditional rendering based on bulletPoint existence */}
-                  {experience.bulletPoint1 && (
+                  {experience.bulletPoint1 && !experience.link && (
                     <p className="my-5">⚡ {experience.bulletPoint1}</p>
+                  )}
+                  {/* Render link if it exists */}
+                  {experience.link && (
+                    <p className="my-5">
+                      ⚡{" "}
+                      <a
+                        href={experience.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:underline"
+                      >
+                        {experience.bulletPoint1}
+                      </a>
+                    </p>
                   )}
                   {experience.bulletPoint2 && (
                     <p className="my-5">⚡ {experience.bulletPoint2}</p>

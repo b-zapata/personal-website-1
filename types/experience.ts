@@ -8,4 +8,5 @@ export type Experience = {
   bulletPoint1: string;
   bulletPoint2: string;
   bulletPoint3: string;
+  link: string;
 };

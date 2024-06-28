@@ -17,6 +17,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Modernize department equipment to ensure up-to-date technology for faculty and students",
         bulletPoint3:
           "Offer on-demand tech support to faculty and students to enhance learning experience",
+        link: "",
       },
       {
         startDate: "Feb 2021",
@@ -31,6 +32,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Served in leadership positions of increasing scope to boost missionary results and training",
         bulletPoint3:
           "Fulfilled key administrative and logistical responsibilities to ensure well-being of 150+ missionaries",
+        link: "",
       },
       {
         startDate: "Mar 2020",
@@ -45,6 +47,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Conducted regular consultations with stakeholders to align website development with their expectations",
         bulletPoint3:
           "Pioneered development in the Mendix platform to offer personalized training to 2 team members",
+        link: "",
       },
       {
         startDate: "Sep 2018",
@@ -59,6 +62,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Oversaw training of subordinates to enhance customer service",
         bulletPoint3:
           "Conducted monthly employee evaluations to improve shift performance",
+        link: "",
       },
     ],
   },
@@ -79,6 +83,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Created 10+ professional, filterable dashboards to visualize 1000+ key statistics",
         bulletPoint3:
           "Managed access rights for hundreds of daily users to ensure data integrity and security",
+        link: "",
       },
       {
         startDate: "Jan 2024",
@@ -93,6 +98,7 @@ const experiencesTabData: ExperienceTab[] = [
           "Initiated the creation of a student live band to enhance engagement through regular performances",
         bulletPoint3:
           "Managed schedule for teachers and DJs to ensure a consistent and enjoyable experience",
+        link: "",
       },
       {
         startDate: "Sep 2019",
@@ -106,6 +112,7 @@ const experiencesTabData: ExperienceTab[] = [
         bulletPoint2:
           "Oversaw and trained quorum leaders and teachers to improve performance",
         bulletPoint3: "Organized monthly events to build quorum unity",
+        link: "",
       },
     ],
   },
@@ -122,6 +129,7 @@ const experiencesTabData: ExperienceTab[] = [
         bulletPoint1: "",
         bulletPoint2: "",
         bulletPoint3: "",
+        link: "",
       },
       {
         startDate: "",
@@ -133,6 +141,7 @@ const experiencesTabData: ExperienceTab[] = [
         bulletPoint1: "See the full article here",
         bulletPoint2: "",
         bulletPoint3: "",
+        link: "https://utahvalleymag.com/product/may-june-2018/",
       },
     ],
   },
