@@ -2,7 +2,6 @@ import React from "react";
 import { ExperienceTab } from "@/types/experienceTab";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Timeline from "../../Timeline";
 
 const ExperiencesTabItem = ({
   experienceTab,
