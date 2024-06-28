@@ -85,11 +85,14 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "Present",
         title: "BYU Salsa Club President",
         employer: "BYU Student Association",
-        logo: "",
+        logo: "/images/logo/byu-salsa-club-logo-round.png",
         location: "Provo, UT",
-        bulletPoint1: "",
-        bulletPoint2: "",
-        bulletPoint3: "",
+        bulletPoint1:
+          "Led a team of ~15 volunteers in increasing average attendance from 0 to 60 within one semester",
+        bulletPoint2:
+          "Initiated the creation of a student live band to enhance experience through regular performances",
+        bulletPoint3:
+          "Managed schedule for teachers and DJs to ensure a consistent and enjoyable environment",
       },
       {
         startDate: "Sep 2019",
