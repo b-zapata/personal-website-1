@@ -128,7 +128,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "",
         title: "High School Senior Who Will Change the World",
         employer: "Utah Valley Magazine",
-        logo: "",
+        logo: "/images/logo/utah-valley-magazine-logo.png",
         location: "Orem, UT",
         bulletPoint1: "See the full article here",
         bulletPoint2: "",
