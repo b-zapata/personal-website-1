@@ -91,7 +91,7 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "Mendix",
-            icon: "images/icon/stacks/brightspot-icon.png",
+            icon: "images/icon/stacks/mendix-icon.png",
           },
         ],
         link: "",
@@ -113,7 +113,7 @@ const projectsTabData: ProjectTab[] = [
     id: "tabThree",
     projects: [
       {
-        title: "Social Media Usage and Mental Health Dashboard - INTEX I",
+        title: "INTEX I - Social Media Usage and Mental Health Dashboard",
         description: "",
         codingStacks: [
           {
@@ -183,7 +183,7 @@ const projectsTabData: ProjectTab[] = [
         link: "",
       },
       {
-        title: "Online Lego Store - INTEX II",
+        title: "INTEX II - Online Lego Store",
         description: "",
         codingStacks: [
           {

@@ -41,7 +41,7 @@ const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
                   <h2 className="xl:text-sectionsubtitle mb-4 w-11/12 text-3xl font-bold text-black dark:text-white">
                     {project.title}
                   </h2>
-                  <p className="my-5">⚡ {project.description}</p>
+                  <p className="my-5">{project.description}</p>
                   {/* Render link if it exists */}
                   {project.link && (
                     <p className="my-5">
