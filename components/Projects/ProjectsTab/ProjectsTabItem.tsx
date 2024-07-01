@@ -68,6 +68,14 @@ const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
                           alt={codingStack.title}
                           width={25}
                           height={25}
+                          className="dark:hidden"
+                        />
+                        <Image
+                          src={codingStack.iconDark}
+                          alt={codingStack.title}
+                          width={25}
+                          height={25}
+                          className="hidden dark:block"
                         />
                       </span>
                     ))}
