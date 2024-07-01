@@ -3,6 +3,15 @@ import { ProjectTab } from "@/types/projectTab";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+function renderDescriptionWithLineBreaks(description: string) {
+  return description.split("\n").map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ));
+}
+
 const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
   const { id, projects } = projectTab;
 
@@ -41,7 +50,9 @@ const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
                   <h2 className="xl:text-sectionsubtitle mb-4 w-11/12 text-3xl font-bold text-black dark:text-white">
                     {project.title}
                   </h2>
-                  <p className="my-5">{project.description}</p>
+                  <p className="my-5">
+                    {renderDescriptionWithLineBreaks(project.description)}
+                  </p>
                   {/* Render link if it exists */}
                   {project.link && (
                     <p className="my-5">
