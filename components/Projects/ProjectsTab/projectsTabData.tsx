@@ -142,12 +142,12 @@ const projectsTabData: ProjectTab[] = [
     projects: [
       {
         title: "INTEX II - Online Lego Store",
-        description: `This was the culminating project of the junior core of the BYU Information Systems program, part of the Integrated Experience (INTEX) series. As part of a team of four students that I had been working with throughout the semester on various projects, we developed an online retail store for a fictional client, Aurora Brickwell, who had been selling Lego products on social media but wanted a more organized platform. Some of the main features we included were:
-		⚡ Cart and checkout functionalities
-		⚡ Product recommendations based on machine learning algorithms
-		⚡ Admin capabilities for adding, removing and editing users and products
-		⚡ Two-factor authentication
-		⚡ Protection from common cyberattacks (such as cross-site scripting and SQL injection)
+        description: `This was the culminating project of the junior core of the BYU Information Systems program, part of the Integrated Experience (INTEX) series. As part of a team of four students that I had been working with throughout the semester on various projects, we developed an online retail store for a fictional client, Aurora Brickwell, who had been selling Lego products on social media but wanted a more organized platform. Some of the main features we included were: \n
+		⚡ Cart and checkout functionalities \n
+		⚡ Product recommendations based on machine learning algorithms \n
+		⚡ Admin capabilities for adding, removing and editing users and products \n
+		⚡ Two-factor authentication \n
+		⚡ Protection from common cyberattacks (such as cross-site scripting and SQL injection) \n
 	We received the project prompt on Monday morning, worked 60+ hours during the week following the Scrum framework, and presented our work to faculty and industry professionals on Friday afternoon.`,
         codingStacks: [
           {
@@ -200,12 +200,12 @@ const projectsTabData: ProjectTab[] = [
       },
       {
         title: "INTEX I - Social Media Usage and Mental Health Dashboard",
-        description: `This was the culminating project of the junior core of the BYU Information Systems program, part of the Integrated Experience (INTEX) series. As part of a team of four students that I had been working with throughout the semester on various projects, we developed an online retail store for a fictional client, Aurora Brickwell, who had been selling Lego products on social media but wanted a more organized platform. Some of the main features we included were:
-		⚡ Cart and checkout functionalities
-		⚡ Product recommendations based on machine learning algorithms
-		⚡ Admin capabilities for adding, removing and editing users and products
-		⚡ Two-factor authentication
-		⚡ Protection from common cyberattacks (such as cross-site scripting and SQL injection)
+        description: `This was the culminating project of the junior core of the BYU Information Systems program, part of the Integrated Experience (INTEX) series. As part of a team of four students that I had been working with throughout the semester on various projects, we developed an online retail store for a fictional client, Aurora Brickwell, who had been selling Lego products on social media but wanted a more organized platform. Some of the main features we included were: \n
+		⚡ Cart and checkout functionalities \n
+		⚡ Product recommendations based on machine learning algorithms \n
+		⚡ Admin capabilities for adding, removing and editing users and products \n
+		⚡ Two-factor authentication \n
+		⚡ Protection from common cyberattacks (such as cross-site scripting and SQL injection) \n
 	We received the project prompt on Monday morning, worked 60+ hours during the week following the Scrum framework, and presented our work to faculty and industry professionals on Friday afternoon.
 `,
         codingStacks: [
@@ -254,9 +254,9 @@ const projectsTabData: ProjectTab[] = [
       },
       {
         title: "ToaPro",
-        description: `Following the Nexus development framework, I worked in a team of 60 students of my cohort to create an app for professors to use to grade the INTEX series. Some of the main features implemented were:
-		⚡ Project submission for student teams
-		⚡ Grid view of submissions for teaching assistants and professors
+        description: `Following the Nexus development framework, I worked in a team of 60 students of my cohort to create an app for professors to use to grade the INTEX series. Some of the main features implemented were: \n
+		⚡ Project submission for student teams \n
+		⚡ Grid view of submissions for teaching assistants and professors \n
 		⚡ Grading functionality for graders, visible to students upon completion of the grading process
 `,
         codingStacks: [
