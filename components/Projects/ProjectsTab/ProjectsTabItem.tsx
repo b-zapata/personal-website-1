@@ -58,7 +58,7 @@ const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
                   )}
                   <div className="flex justify-end">
                     {project.codingStacks.map((codingStack, index) => (
-                      <span key={index}>
+                      <span key={index} className="m-5">
                         <Image
                           src={
                             codingStack.iconLight
