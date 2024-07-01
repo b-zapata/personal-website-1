@@ -10,15 +10,23 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "FlutterFlow",
-            icon: "images/icon/stacks/flutterflow-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/flutterflow-icon.png",
           },
           {
             title: "Flutter",
-            icon: "images/icon/stacks/flutter-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/flutter-icon.png",
+          },
+          {
+            title: "Google Maps",
+            iconLight: "",
+            iconDark: "images/icon/stacks/google-maps-icon.png",
           },
           {
             title: "Firebase",
-            icon: "images/icon/stacks/firebase-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/firebase-icon.png",
           },
         ],
         link: "",
@@ -29,15 +37,18 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "Google Apps Script",
-            icon: "images/icon/stacks/google-apps-script-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/google-apps-script-icon.png",
           },
           {
             title: "Google Forms",
-            icon: "images/icon/stacks/google-forms-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/google-forms-icon.png",
           },
           {
             title: "Google Sheets",
-            icon: "images/icon/stacks/google-sheets-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/google-sheets-icon.png",
           },
         ],
         link: "",
@@ -48,23 +59,28 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "HTML",
-            icon: "images/icon/stacks/html-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/html-icon.png",
           },
           {
             title: "Tailwind CSS",
-            icon: "images/icon/stacks/talwind-css-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/talwind-css-icon.png",
           },
           {
             title: "JavaScript",
-            icon: "images/icon/stacks/js-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/js-icon.png",
           },
           {
             title: "TypeScript",
-            icon: "images/icon/stacks/ts-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/ts-icon.png",
           },
           {
             title: "NextJS",
-            icon: "images/icon/stacks/nextjs-icon.png",
+            iconLight: "images/icon/stacks/nextjs-light-icon.png",
+            iconDark: "images/icon/stacks/nextjs-dark-icon.png",
           },
         ],
         link: "",
@@ -77,12 +93,7 @@ const projectsTabData: ProjectTab[] = [
       {
         title: "ACME Website",
         description: "",
-        codingStacks: [
-          {
-            title: "Brightspot",
-            icon: "images/icon/stacks/brightspot-icon.png",
-          },
-        ],
+        codingStacks: [],
         link: "",
       },
       {
@@ -91,7 +102,8 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "Mendix",
-            icon: "images/icon/stacks/mendix-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/mendix-icon.png",
           },
         ],
         link: "",
@@ -99,12 +111,7 @@ const projectsTabData: ProjectTab[] = [
       {
         title: "Math Department Website",
         description: "",
-        codingStacks: [
-          {
-            title: "Brightspot",
-            icon: "images/icon/stacks/brightspot-icon.png",
-          },
-        ],
+        codingStacks: [],
         link: "",
       },
     ],
@@ -118,35 +125,43 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "HTML",
-            icon: "images/icon/stacks/html-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/html-icon.png",
           },
           {
             title: "CSS",
-            icon: "images/icon/stacks/css-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/css-icon.png",
           },
           {
             title: "Python",
-            icon: "images/icon/stacks/python-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/python-icon.png",
           },
           {
             title: "JavaScript",
-            icon: "images/icon/stacks/js-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/js-icon.png",
           },
           {
             title: "NodeJS",
-            icon: "images/icon/stacks/nodejs-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/nodejs-icon.png",
           },
           {
             title: "SQL",
-            icon: "images/icon/stacks/sql-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/sql-icon.png",
           },
           {
             title: "Amazon Web Services",
-            icon: "images/icon/stacks/aws-icon.png",
+            iconLight: "images/icon/stacks/aws-light-icon.png",
+            iconDark: "images/icon/stacks/aws-dark-icon.png",
           },
           {
             title: "Lucidchart",
-            icon: "images/icon/stacks/lucidchart-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/lucidchart-icon.png",
           },
         ],
         link: "",
@@ -157,27 +172,28 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "HTML",
-            icon: "images/icon/stacks/html-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/html-icon.png",
           },
           {
             title: "CSS",
-            icon: "images/icon/stacks/css-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/css-icon.png",
           },
           {
             title: "C Sharp",
-            icon: "images/icon/stacks/c-sharp-icon.png",
-          },
-          {
-            title: "C Sharp MVC Model",
-            icon: "images/icon/stacks/c-sharp-mvc-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/c-sharp-icon.png",
           },
           {
             title: "SQL",
-            icon: "images/icon/stacks/sql-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/sql-icon.png",
           },
           {
             title: "Figma",
-            icon: "images/icon/stacks/figma-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/figma-icon.png",
           },
         ],
         link: "",
@@ -188,43 +204,48 @@ const projectsTabData: ProjectTab[] = [
         codingStacks: [
           {
             title: "HTML",
-            icon: "images/icon/stacks/html-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/html-icon.png",
           },
           {
             title: "CSS",
-            icon: "images/icon/stacks/css-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/css-icon.png",
           },
           {
             title: "Python",
-            icon: "images/icon/stacks/python-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/python-icon.png",
           },
           {
             title: "JavaScript",
-            icon: "images/icon/stacks/js-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/js-icon.png",
           },
           {
             title: "C Sharp",
-            icon: "images/icon/stacks/c-sharp-icon.png",
-          },
-          {
-            title: "C Sharp MVC Model",
-            icon: "images/icon/stacks/c-sharp-mvc-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/c-sharp-icon.png",
           },
           {
             title: "SQL",
-            icon: "images/icon/stacks/sql-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/sql-icon.png",
           },
           {
             title: "Microsoft Azure",
-            icon: "images/icon/stacks/azure-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/azure-icon.png",
           },
           {
             title: "Figma",
-            icon: "images/icon/stacks/figma-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/figma-icon.png",
           },
           {
             title: "Lucidchart",
-            icon: "images/icon/stacks/lucidchart-icon.png",
+            iconLight: "",
+            iconDark: "images/icon/stacks/lucidchart-icon.png",
           },
         ],
         link: "",

@@ -60,7 +60,11 @@ const ProjectsTabItem = ({ projectTab }: { projectTab: ProjectTab }) => {
                     {project.codingStacks.map((codingStack, index) => (
                       <span key={index}>
                         <Image
-                          src={codingStack.icon}
+                          src={
+                            codingStack.iconLight
+                              ? codingStack.iconLight
+                              : codingStack.iconDark
+                          }
                           alt={codingStack.title}
                           width={25}
                           height={25}

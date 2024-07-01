@@ -1,4 +1,5 @@
 export type CodingStack = {
   title: string;
-  icon: string;
+  iconLight: string;
+  iconDark: string;
 };
