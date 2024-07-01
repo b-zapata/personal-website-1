@@ -96,12 +96,6 @@ const projectsTabData: ProjectTab[] = [
     id: "tabTwo",
     projects: [
       {
-        title: "ACME Website",
-        description: "",
-        codingStacks: [],
-        link: "",
-      },
-      {
         title: "Lazy Ironman Registration & Tracking",
         description: "",
         codingStacks: [
@@ -110,7 +104,23 @@ const projectsTabData: ProjectTab[] = [
             iconLight: "",
             iconDark: "images/icon/stacks/mendix-icon.png",
           },
+          {
+            title: "Java",
+            iconLight: "",
+            iconDark: "images/icon/stacks/java-icon.png",
+          },
+          {
+            title: "Strava",
+            iconLight: "",
+            iconDark: "images/icon/stacks/strava-icon.png",
+          },
         ],
+        link: "",
+      },
+      {
+        title: "ACME Website",
+        description: "",
+        codingStacks: [],
         link: "",
       },
       {
