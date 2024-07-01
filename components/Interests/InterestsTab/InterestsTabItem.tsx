@@ -1,10 +1,11 @@
 import React from "react";
-import { FeatureTab } from "@/types/featureTab";
+import { InterestTab } from "@/types/interestTab";
 import Image from "next/image";
 
-const InterestsTabItem = ({ interestTab }: { interestTab: FeatureTab }) => {
-  const { title, desc1, desc2, image, imageDark } = interestTab;
+const InterestsTabItem = ({ interestTab }: { interestTab: InterestTab }) => {
+  const { id, interests } = interestTab;
 
+  /*
   return (
     <>
       <div className="flex items-center gap-8 lg:gap-19">
@@ -27,6 +28,7 @@ const InterestsTabItem = ({ interestTab }: { interestTab: FeatureTab }) => {
       </div>
     </>
   );
+  */
 };
 
 export default InterestsTabItem;
