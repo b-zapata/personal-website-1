@@ -78,6 +78,11 @@ const projectsTabData: ProjectTab[] = [
             iconDark: "images/icon/stacks/ts-icon.png",
           },
           {
+            title: "React",
+            iconLight: "",
+            iconDark: "images/icon/stacks/react-icon.png",
+          },
+          {
             title: "NextJS",
             iconLight: "images/icon/stacks/nextjs-light-icon.png",
             iconDark: "images/icon/stacks/nextjs-dark-icon.png",
