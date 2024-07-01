@@ -65,11 +65,11 @@ const projectsTabData: ProjectTab[] = [
       {
         title: "INTEX I - Social Media Usage and Mental Health Dashboard",
         description: `This was the culminating project of the first semester of the BYU Information Systems junior core. As part of a team of four students that I had been working with throughout the semester on various projects, we developed a professional dashboard for the Provo City Council (fictional client) that showed the relationship between mental health and social media usage. Some of the main features we included were: \n
-		○ Form submission functionality for new people being surveyed \n
-		○ Admin functionalities for adding, editing, and removing data \n
-		○ Real-time update of dashboards as data was added, removed, or edited \n
-		○ Basic log in functionalities \n
-		○ Professional data visualizations following best industry practices`,
+		⚡ Form submission functionality for new people being surveyed \n
+		⚡ Admin functionalities for adding, editing, and removing data \n
+		⚡ Real-time update of dashboards as data was added, removed, or edited \n
+		⚡ Basic log in functionalities \n
+		⚡ Professional data visualizations following best industry practices`,
         codingStacks: [
           {
             title: "HTML",

@@ -58,7 +58,7 @@ const ProjectsTab = () => {
             >
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Personal
+                  School
                 </button>
               </div>
             </div>
@@ -72,7 +72,7 @@ const ProjectsTab = () => {
             >
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Work
+                  Personal
                 </button>
               </div>
             </div>
@@ -86,7 +86,7 @@ const ProjectsTab = () => {
             >
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  School
+                  Work
                 </button>
               </div>
             </div>
