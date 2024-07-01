@@ -65,7 +65,7 @@ const projectsTabData: ProjectTab[] = [
           {
             title: "Tailwind CSS",
             iconLight: "",
-            iconDark: "images/icon/stacks/talwind-css-icon.png",
+            iconDark: "images/icon/stacks/talwind-css-2-icon.png",
           },
           {
             title: "JavaScript",
