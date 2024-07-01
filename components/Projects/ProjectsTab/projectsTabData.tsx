@@ -156,7 +156,7 @@ const projectsTabData: ProjectTab[] = [
           {
             title: "Amazon Web Services",
             iconLight: "images/icon/stacks/aws-light-icon.png",
-            iconDark: "images/icon/stacks/aws-dark-icon.png",
+            iconDark: "images/icon/stacks/aws-dark-2-icon.png",
           },
           {
             title: "Lucidchart",
