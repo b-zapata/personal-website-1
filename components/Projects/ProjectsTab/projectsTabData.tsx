@@ -65,7 +65,7 @@ const projectsTabData: ProjectTab[] = [
           {
             title: "Tailwind CSS",
             iconLight: "",
-            iconDark: "images/icon/stacks/talwind-css-2-icon.png",
+            iconDark: "images/icon/stacks/tailwind-css-2-icon.png",
           },
           {
             title: "JavaScript",
@@ -161,7 +161,7 @@ const projectsTabData: ProjectTab[] = [
           {
             title: "Lucidchart",
             iconLight: "",
-            iconDark: "images/icon/stacks/lucidchart-icon.png",
+            iconDark: "images/icon/stacks/lucidchart-2-icon.png",
           },
         ],
         link: "",
@@ -240,7 +240,7 @@ const projectsTabData: ProjectTab[] = [
           {
             title: "Figma",
             iconLight: "",
-            iconDark: "images/icon/stacks/figma-icon.png",
+            iconDark: "images/icon/stacks/figma-2-icon.png",
           },
           {
             title: "Lucidchart",
