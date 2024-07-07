@@ -68,10 +68,10 @@ const InterestsTabItem = ({ interestTab }: { interestTab: InterestTab }) => {
                 viewport={{ once: true }}
                 className="animate_right md:w-1/2"
               >
+                <h2 className="xl:text-sectionsubtitle mb-4 w-11/12 text-3xl font-bold text-black dark:text-white">
+                  {interest.title}
+                </h2>
                 <p>{interest.description}</p>
-                <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                  {interest.description}
-                </h3>
               </motion.div>
             </div>
           ))}
