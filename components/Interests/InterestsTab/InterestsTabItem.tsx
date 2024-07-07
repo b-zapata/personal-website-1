@@ -7,28 +7,32 @@ const InterestsTabItem = ({ interestTab }: { interestTab: InterestTab }) => {
 
   return (
     <>
-      <div className="flex items-center gap-8 lg:gap-19">
+      <div>
         {interests.map((interest, index) => (
-          <div key={index}>
-            <div className="md:w-1/2">
-              <h2 className="mb-7 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
-                {interest.title}
-              </h2>
-              <p className="mb-5">{interest.description}</p>
-            </div>
-            <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
-              <Image
-                src={
-                  interest.imageLight ? interest.imageLight : interest.imageDark
-                }
-                alt={interest.title}
-                className="dark:hidden"
-              />
-              <Image
-                src={interest.imageDark}
-                alt={interest.title}
-                className="hidden dark:block"
-              />
+          <div className="flex items-center gap-8 lg:gap-19">
+            <div key={index}>
+              <div className="md:w-1/2">
+                <h2 className="mb-7 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle2">
+                  {interest.title}
+                </h2>
+                <p className="mb-5">{interest.description}</p>
+              </div>
+              <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
+                <Image
+                  src={
+                    interest.imageLight
+                      ? interest.imageLight
+                      : interest.imageDark
+                  }
+                  alt={interest.title}
+                  className="dark:hidden"
+                />
+                <Image
+                  src={interest.imageDark}
+                  alt={interest.title}
+                  className="hidden dark:block"
+                />
+              </div>
             </div>
           </div>
         ))}
