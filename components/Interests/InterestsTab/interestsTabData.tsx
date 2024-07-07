@@ -9,7 +9,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/piano-me.jpg",
         imageLight: "",
         description:
-          "I started learning how to play when I was about 5, with my mom as my first piano teacher. I started out with classical and church music. Then, when I was 13 I joined the School of Music of Antofagasta, where I learned with professional musicians, attended master classes, and played as a soloist with the student orchestra. Today, I've opened my repertoire to movie scores, jazz, and other music styles.",
+          "I started learning to play the piano when I was about 5. My mom was my first piano teacher, and she taught me mainly classical and church music. When I was 13 I joined the School of Music of Antofagasta, where I learned with professional musicians, attended master classes, and played as a soloist with the student orchestra. Today, I've expanded my repertoire to movie scores, jazz, pop, folk, and a few other music styles.",
         link: "",
       },
       {
@@ -25,7 +25,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/mco.jpg",
         imageLight: "",
         description:
-          "Since I was a child, I had frequently been involved in choirs in my local church community. When I was an exchange student my senior year of high school, I joined Millennial Choirs and Orchestras. I participated in the youth choir for a year, joining the grand chorus after I graduated high school. I also participated in the multicultural choir that would have sang at the April 2020 General Conference of The Church of Jesus Christ of Latter-day Saints, which went online because of COVID. I have also conducted choirs at my local church community and sang in a few ensambles with friends.",
+          "I have been involved in choirs in my local church community since I was a child. When I was an exchange student during my senior year of high school, I joined Millennial Choirs and Orchestras. I participated in the youth choir for a year, and in the grand chorus for another year after I graduated high school. I also participated in the multicultural choir that would have sang at the April 2020 General Conference of The Church of Jesus Christ of Latter-day Saints, which went online because of COVID. I have also conducted choirs at my local church community and sang in a few ensambles with friends.",
         link: "",
       },
     ],
@@ -38,7 +38,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/soccer.jpg",
         imageLight: "",
         description:
-          "Growing up in Chile, soccer was always in some way a part of my life. I was in preschool when I played my first few games of soccer, and then haven't stopped playing with friends to this day. I can play in any position, but I enjoy midfielder, center back, and goalkeeper the most because of the game vision and play building I can make.",
+          "Growing up in Chile, soccer was always in some way a part of my life. I was in preschool when I played my first few games of soccer, and I haven't stopped playing with friends since then. I can play in any position, but I enjoy midfielder, center back, and goalkeeper the most because of the game vision and play building I can make.",
         link: "",
       },
       {
@@ -54,7 +54,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/swimmer.jpg",
         imageLight: "",
         description:
-          "My parents got me into swimming when I was 10 years old, shortly after I almost drown at a school party because I didn't know how to swim. I learned all four swimming styles, and began to train every day. During training I realized that I was really close to the Chilean freestyle 50m national record for my age, so I decided I wanted to do it competitively. However, they closed my city's olympic pool when I was 13 for repairs and I lost momentum. I never got back into competitive swimming, but I do it now as a hobby and as a way to stay fit.",
+          "My parents got me into swimming when I was 10 years old, shortly after I almost drown at a school party because I didn't know how to swim. I learned all four swimming styles, and began to train every day. During training I realized that I was really close to the Chilean freestyle 50m national record for my age, so I decided I wanted to do it competitively. However, they closed my city's olympic pool when I was 13 for repairs. I never got back into competitive swimming, but I do it now as a hobby and as a way to stay fit.",
         link: "",
       },
       {
@@ -91,7 +91,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/suits-poster.jpg",
         imageLight: "",
         description:
-          "Not much description needed here. I love the fast pace and adrenaline of this show. My favorite seasons are 1, 5, and 7.",
+          "I love the fast pace and adrenaline of this show. My favorite character is Harvey Specter, and my favorite seasons are 1, 5, and 7.",
         link: "",
       },
       {
@@ -99,7 +99,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/rocket-league.jpg",
         imageLight: "",
         description:
-          "I got into Rocket League on my senior year of high school. I had a really hard time with the coordination required to make it work, but eventually I managed to get to the Gold division",
+          "I got into Rocket League on my senior year of high school. I had a really hard time learning how to play to make it work, but eventually I managed to get to the Gold division",
         link: "",
       },
     ],
