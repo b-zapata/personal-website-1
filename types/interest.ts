@@ -1,5 +1,6 @@
 export type Interest = {
-  image: string;
+  imageDark: string;
+  imageLight: string;
   title: string;
   description: string;
   link: string;
