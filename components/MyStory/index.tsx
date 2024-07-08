@@ -81,9 +81,7 @@ const About = () => {
                 sophomore year, I finally decided on majoring in Information
                 Systems.
               </p>
-              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                I was born at a very young age on planet Earth.
-              </h3>
+              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
             </motion.div>
           </div>
         </div>
@@ -128,9 +126,7 @@ const About = () => {
                 </a>
                 .
               </p>
-              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
-                I was born at a very young age on planet Earth.
-              </h3>
+              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
             </motion.div>
             <motion.div
               variants={{
