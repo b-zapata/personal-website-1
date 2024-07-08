@@ -43,15 +43,13 @@ const InterestsTabItem = ({ interestTab }: { interestTab: InterestTab }) => {
                     }
                     alt={interest.title}
                     className="dark:hidden"
-                    width={200}
-                    height={200}
+                    fill
                   />
                   <Image
                     src={interest.imageDark}
                     alt={interest.title}
                     className="hidden dark:block"
-                    width={200}
-                    height={200}
+                    fill
                   />
                 </motion.div>
                 <motion.div
