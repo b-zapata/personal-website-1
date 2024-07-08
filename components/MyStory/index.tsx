@@ -102,7 +102,24 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <p>I was born at a very young age on planet Earth.</p>
+              <p>
+                I was born in Santiago, Chile, and when I was 8, I moved to
+                Antofagasta, in the north of Chile, where I lived most of my
+                teenage years. When I was 16, I came to the United States as an
+                international exchange student and attended Liahona Preparatory
+                Academy, where I did my senior year and graduated high school.
+                At age 17 I started studying at BYU. I took classes from varying
+                fields and got familiar with different career paths, and on my
+                sophomore year, I finally decided on majoring in Information
+                Systems. I did five semesters at BYU before leaving as a
+                volunteer missionary for The Church of Jesus Christ of
+                Latter-day Saints, where I served in my native city of Santiago,
+                Chile for a year, and then in Rio de Janeiro, Brazil, for the
+                remaining year of my mission. I recently completed the
+                Information Systems junior core, and am currently preparing to
+                start the integrated Masters of Information Systems program at
+                BYU.
+              </p>
               <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                 I was born at a very young age on planet Earth.
               </h3>
