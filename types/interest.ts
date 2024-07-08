@@ -1,4 +1,5 @@
 export type Interest = {
+  interestId: number;
   imageDark: string;
   imageLight: string;
   title: string;

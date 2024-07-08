@@ -5,6 +5,7 @@ const interestsTabData: InterestTab[] = [
     id: "tabOne",
     interests: [
       {
+        interestId: 1,
         title: "Piano",
         imageDark: "/images/interests/piano-me.jpg",
         imageLight: "",
@@ -13,6 +14,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 2,
         title: "Dancing",
         imageDark: "/images/interests/dancing-1.jpg",
         imageLight: "",
@@ -21,6 +23,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 3,
         title: "Singing",
         imageDark: "/images/interests/mco.jpg",
         imageLight: "",
@@ -34,6 +37,7 @@ const interestsTabData: InterestTab[] = [
     id: "tabTwo",
     interests: [
       {
+        interestId: 1,
         title: "Soccer",
         imageDark: "/images/interests/soccer.jpg",
         imageLight: "",
@@ -42,6 +46,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 2,
         title: "Chess",
         imageDark: "/images/interests/chess.jpg",
         imageLight: "",
@@ -50,6 +55,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 3,
         title: "Swimming",
         imageDark: "/images/interests/swimmer.jpg",
         imageLight: "",
@@ -58,6 +64,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 4,
         title: "Boxing",
         imageDark: "/images/interests/boxing-gloves.jpg",
         imageLight: "",
@@ -71,6 +78,7 @@ const interestsTabData: InterestTab[] = [
     id: "tabThree",
     interests: [
       {
+        interestId: 1,
         title: "Christianity",
         imageDark: "/images/interests/mission-2.jpg",
         imageLight: "",
@@ -79,6 +87,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 2,
         title: "Reading",
         imageDark: "/images/interests/book.jpg",
         imageLight: "",
@@ -87,6 +96,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 3,
         title: "Suits (TV Series)",
         imageDark: "/images/interests/suits-poster.jpg",
         imageLight: "",
@@ -95,6 +105,7 @@ const interestsTabData: InterestTab[] = [
         link: "",
       },
       {
+        interestId: 4,
         title: "Rocket League",
         imageDark: "/images/interests/rocket-league.jpg",
         imageLight: "",
