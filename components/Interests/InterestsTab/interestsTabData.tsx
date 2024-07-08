@@ -25,7 +25,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 3,
         title: "Singing",
-        imageDark: "/images/interests/mco_2.jpg",
+        imageDark: "/images/interests/mco.jpg",
         imageLight: "",
         description:
           "I have been involved in choirs in my local church community since I was a child. When I was an exchange student during my senior year of high school, I joined Millennial Choirs and Orchestras. I participated in the youth choir for a year, and in the grand chorus for another year after I graduated high school. I also participated in the multicultural choir that would have sang at the April 2020 General Conference of The Church of Jesus Christ of Latter-day Saints, which went online because of COVID. I have also conducted choirs at my local church community and sang in a few ensambles with friends.",
@@ -39,7 +39,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 1,
         title: "Soccer",
-        imageDark: "/images/interests/soccer_2.jpg",
+        imageDark: "/images/interests/soccer.jpg",
         imageLight: "",
         description:
           "Growing up in Chile, soccer was always in some way a part of my life. I was in preschool when I played my first few games of soccer, and I haven't stopped playing with friends since then. I can play in any position, but I enjoy midfielder, center back, and goalkeeper the most because of the game vision and play building I can make.",
