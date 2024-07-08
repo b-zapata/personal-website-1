@@ -25,13 +25,6 @@ export default function Home() {
       <Feature />
       <Endorsement />
       <MyStory />
-      <FunFact />
-      <Integration />
-      <CTA />
-      <FAQ />
-      <Pricing />
-      <Contact />
-      <Blog />
     </main>
   );
 }
