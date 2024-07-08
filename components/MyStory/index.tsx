@@ -110,7 +110,8 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <p style={{ lineHeight: "1.6", marginBottom: "1rem" }}>
+              <p></p>
+              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                 I did five semesters at BYU before leaving as a volunteer
                 missionary for The Church of Jesus Christ of Latter-day Saints,
                 where I served in my native city of Santiago, Chile for a year,
@@ -125,8 +126,7 @@ const About = () => {
                   here
                 </a>
                 .
-              </p>
-              <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
+              </h3>
             </motion.div>
             <motion.div
               variants={{
