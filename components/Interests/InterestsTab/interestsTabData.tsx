@@ -92,7 +92,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/book_2.jpg",
         imageLight: "",
         description:
-          "My favorite book genres are self-improvement, drama, and religious. Some of the books I have read include The 7 Habits of Highly Effective People, How to Make Friends and Influence People, Donde Surgen las Sombras (Where Shadows Emerge), The Chronicles of Narnia, the Bible, and The Book of Mormon. Some of the books I would like to read soon are Atomic Habits and the Qu'ran.",
+          "My favorite book genres are self-improvement, drama, and religious. Some of the books I have read include The 7 Habits of Highly Effective People, How to Make Friends and Influence People, Donde Surgen las Sombras (Where Shadows Emerge), The Chronicles of Narnia, the Bible, and The Book of Mormon. Some of the books I would like to read soon are Atomic Habits and the Qur'an.",
         link: "",
       },
       {
