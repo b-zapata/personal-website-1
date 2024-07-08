@@ -110,7 +110,7 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_left md:w-1/2"
             >
-              <p>
+              <p style={{ lineHeight: "1.6", marginBottom: "1rem" }}>
                 I did five semesters at BYU before leaving as a volunteer
                 missionary for The Church of Jesus Christ of Latter-day Saints,
                 where I served in my native city of Santiago, Chile for a year,
@@ -119,7 +119,7 @@ const About = () => {
                 core, and am currently preparing to start the integrated Masters
                 of Information Systems program at BYU. I am the youngest of four
                 siblings and the proud uncle of two nephews and three nieces. I
-                love trying out and learning new things. You can find a list of
+                love trying out and learning new things—you can find a list of
                 all my interests{" "}
                 <a href="/interests" className="text-primary">
                   here
