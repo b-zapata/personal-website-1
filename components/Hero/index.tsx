@@ -52,11 +52,12 @@ const Hero = () => {
                 />
               </h1>
               <p>
-                HYEHEYEHEYEHHEEYHEYEHEYEHY Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Nibh venenatis cras sed felis
-                eget velit aliquet sagittis id. Pellentesque sit amet porttitor
-                eget dolor morbi.
+                Driven by curiosity and fueled by a passion for technology, I
+                specialize in crafting robust and scalable solutions. My strong
+                communication skills enable me to translate technical jargon
+                into clear, actionable insights, making me an effective liaison
+                between development teams and stakeholders. Let's build
+                something amazing together.
               </p>
 
               <div>
