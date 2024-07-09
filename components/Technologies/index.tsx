@@ -21,7 +21,7 @@ const Technologies = () => {
           />
           {/* <!-- Section Title End --> */}
 
-          <div className="mt-12.5 grid grid-cols-1 gap-7.5 text-center md:grid-cols-2 lg:mt-15 lg:grid-cols-4 xl:mt-20 xl:gap-12.5">
+          <div className="mt-12.5 grid grid-cols-2 gap-7.5 text-center sm:grid-cols-3 md:grid-cols-4 lg:mt-15 lg:grid-cols-5 xl:mt-20 xl:grid-cols-6 xl:gap-12.5">
             {technologiesData.map((technology, index) => (
               <motion.div
                 key={index}
@@ -39,9 +39,8 @@ const Technologies = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="animate_left flex justify-center"
               >
-                <span className="m-5">
+                <span className="m-5 block">
                   <Image
                     src={
                       technology.iconLight
