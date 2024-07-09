@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Feature from "@/components/Features";
+import Technologies from "@/components/Technologies";
 import Endorsement from "@/components/Endorsement";
 import MyStory from "@/components/MyStory";
 
@@ -15,6 +16,7 @@ export default function Home() {
     <main>
       <Hero />
       <Feature />
+      <Technologies />
       <MyStory />
     </main>
   );
