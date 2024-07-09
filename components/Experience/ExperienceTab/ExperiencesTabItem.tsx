@@ -20,7 +20,7 @@ const ExperiencesTabItem = ({
           >
             <Image
               src={experience.logo}
-              alt="BYU Logo"
+              alt={experience.employer}
               width={150}
               height={150}
               className="rounded-lg"
