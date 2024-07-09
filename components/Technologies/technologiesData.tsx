@@ -17,6 +17,16 @@ const codingStackData: CodingStack[] = [
     iconDark: "images/icon/stacks/tailwind-css-2-icon.png",
   },
   {
+    title: "C#",
+    iconLight: "",
+    iconDark: "images/icon/stacks/c-sharp-icon.png",
+  },
+  {
+    title: "Python",
+    iconLight: "",
+    iconDark: "images/icon/stacks/python-icon.png",
+  },
+  {
     title: "JavaScript",
     iconLight: "",
     iconDark: "images/icon/stacks/js-icon.png",
@@ -45,16 +55,6 @@ const codingStackData: CodingStack[] = [
     title: "Google Apps Script",
     iconLight: "",
     iconDark: "images/icon/stacks/google-apps-script-icon.png",
-  },
-  {
-    title: "C#",
-    iconLight: "",
-    iconDark: "images/icon/stacks/c-sharp-icon.png",
-  },
-  {
-    title: "Python",
-    iconLight: "",
-    iconDark: "images/icon/stacks/python-icon.png",
   },
   {
     title: "SQL",
