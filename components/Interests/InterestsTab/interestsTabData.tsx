@@ -19,7 +19,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/dancing-1_2.jpg",
         imageLight: "",
         description:
-          "When I was a freshman at BYU, I took a social dance class and started attending the BYU Salsa and Country Swing Clubs. I knew right away that partner dancing would be one of my favorite hobbies for life. Since then, I have participated in competitions, choreographies, and served in different leadership positions, such as president of the BYU Salsa Club. My favorite styles are Salsa, Bachata, and West Coast Swing.",
+          "When I was a freshman at BYU, I took a social dance class and started attending the BYU Salsa and Country Swing Clubs. I knew right away that partner dancing would be one of my favorite hobbies for life. Since then, I have participated in competitions, choreographies, and served in different leadership positions, such as president of the BYU Salsa Club. My favorite styles are Salsa, Bachata, and West Coast Swing. Other styles I also enjoy are Country Swing, East Coast Swing, Merengue, Foxtrot, and several other ballroom styles.",
         link: "",
       },
       {

@@ -40,13 +40,13 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src="/images/about/me-casual_2.jpg"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="/images/about/about-dark-01.png"
+                src="/images/about/me-casual_2.jpg"
                 alt="About"
                 className="hidden dark:block"
                 fill
@@ -71,7 +71,7 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               <p>
-                I was born in Santiago, Chile, and when I was 8, I moved to
+                I was born in Santiago, Chile on 2001. When I was 8, I moved to
                 Antofagasta, in the north of Chile, where I lived most of my
                 teenage years. When I was 16, I came to the United States as an
                 international exchange student and attended Liahona Preparatory
@@ -120,7 +120,7 @@ const About = () => {
                 of Information Systems program at BYU. I am the youngest of four
                 siblings and the proud uncle of two nephews and three nieces. I
                 love trying out and learning new things—you can find a list of
-                all my interests{" "}
+                my favorite hobbies and interests{" "}
                 <a href="/interests" className="text-primary">
                   here
                 </a>
@@ -147,13 +147,13 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="./images/about/family_2.jpg"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
+                src="./images/about/family_2.jpg"
                 alt="About"
                 className="hidden dark:block"
                 fill
