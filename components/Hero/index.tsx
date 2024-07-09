@@ -26,16 +26,16 @@ const Hero = () => {
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-30">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">
+          <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:gap-8 xl:gap-32.5">
+            <div className="md:w-1/2">
               <h5>
                 <b>WELCOME TO MY WORLD</b>
               </h5>
-              <br></br>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
+              <br />
+              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 Hi, I'm <span className="text-primary">Benjamin Zapata</span>
               </h1>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
+              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 <Typical
                   steps={[
                     "a Developer.",
@@ -74,7 +74,7 @@ const Hero = () => {
                       src={"images/brand/brand-linkedin.svg"}
                       width={36}
                       height={36}
-                      alt="title"
+                      alt="LinkedIn"
                     />
                   </a>
                   <a
@@ -87,14 +87,14 @@ const Hero = () => {
                       width={36}
                       height={36}
                       className="hidden dark:block"
-                      alt="title"
+                      alt="GitHub"
                     />
                     <Image
                       src={"images/brand/brand-github.svg"}
                       width={36}
                       height={36}
                       className="dark:hidden"
-                      alt="title"
+                      alt="GitHub"
                     />
                   </a>
                   <a href="/contact" rel="noopener noreferrer">
@@ -102,7 +102,7 @@ const Hero = () => {
                       src={"images/icon/icon-email.svg"}
                       width={36}
                       height={36}
-                      alt="title"
+                      alt="Email"
                     />
                   </a>
 
@@ -118,25 +118,25 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="animate_right hidden md:w-1/2 lg:block">
+            <div className="animate_right relative md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
                 <Image
                   src="images/shape/shape-01.png"
-                  alt="shape"
+                  alt="Shape 1"
                   width={46}
                   height={246}
                   className="absolute -left-11.5 top-0"
                 />
                 <Image
                   src="images/shape/shape-02.svg"
-                  alt="shape"
+                  alt="Shape 2"
                   width={36.9}
                   height={36.7}
                   className="absolute bottom-0 right-0 z-10"
                 />
                 <Image
                   src="images/shape/shape-03.svg"
-                  alt="shape"
+                  alt="Shape 3"
                   width={21.64}
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"

@@ -16,7 +16,7 @@ const Technologies = () => {
             headerInfo={{
               title: "",
               subtitle: "Technologies",
-              description: `These are the languages and tools I am proficient in.`,
+              description: `These are the languages and tools I am experienced in.`,
             }}
           />
           {/* <!-- Section Title End --> */}
