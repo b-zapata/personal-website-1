@@ -142,9 +142,9 @@ const Hero = () => {
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
 
-                <div className="relative flex justify-center">
+                <div className="relative mb-10 flex justify-center">
                   <Image
-                    className="w-80 rounded-full object-cover shadow-solid-l dark:hidden"
+                    className="w-3/4 rounded-full object-cover shadow-solid-l dark:hidden"
                     src="images/hero/prof-headshot-og-square-lower.jpg"
                     alt="Hero"
                     layout="responsive"
@@ -152,7 +152,7 @@ const Hero = () => {
                     height={444}
                   />
                   <Image
-                    className="hidden w-80 rounded-full object-cover shadow-solid-l dark:block"
+                    className="hidden w-3/4 rounded-full object-cover shadow-solid-l dark:block"
                     src="images/hero/prof-headshot-og-square-lower.jpg"
                     alt="Hero"
                     layout="responsive"
