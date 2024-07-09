@@ -48,15 +48,15 @@ const Technologies = () => {
                         : technology.iconDark
                     }
                     alt={technology.title}
-                    width={35}
-                    height={35}
+                    width={80}
+                    height={80}
                     className="dark:hidden"
                   />
                   <Image
                     src={technology.iconDark}
                     alt={technology.title}
-                    width={35}
-                    height={35}
+                    width={80}
+                    height={80}
                     className="hidden dark:block"
                   />
                 </span>
