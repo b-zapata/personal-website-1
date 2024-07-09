@@ -160,7 +160,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "",
         title: "Valedictorian",
         employer: "Liahona Preparatory Academy",
-        logo: "/images/logo/liahona-logo.png",
+        logo: "/images/logo/lpa-logo_2.png",
         location: "Pleasant Grove, UT",
         bulletPoint1: "",
         bulletPoint2: "",
