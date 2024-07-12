@@ -143,22 +143,26 @@ const Hero = () => {
                 />
 
                 <div className="relative mb-10 flex justify-center">
-                  <Image
-                    className="w-3/4 rounded-full object-cover shadow-solid-l dark:hidden"
-                    src="images/hero/prof-headshot-og-square-lower.jpg"
-                    alt="Hero"
-                    layout="responsive"
-                    width={700}
-                    height={444}
-                  />
-                  <Image
-                    className="hidden w-3/4 rounded-full object-cover shadow-solid-l dark:block"
-                    src="images/hero/prof-headshot-og-square-lower.jpg"
-                    alt="Hero"
-                    layout="responsive"
-                    width={200}
-                    height={300}
-                  />
+                  <div className="w-3/4">
+                    <Image
+                      className="rounded-full object-cover shadow-solid-l dark:hidden"
+                      src="/images/hero/prof-headshot-og-square-lower.jpg"
+                      alt="Hero"
+                      layout="responsive"
+                      width={700}
+                      height={444}
+                    />
+                  </div>
+                  <div className="hidden w-3/4 dark:block">
+                    <Image
+                      className="rounded-full object-cover shadow-solid-l"
+                      src="/images/hero/prof-headshot-og-square-lower.jpg"
+                      alt="Hero"
+                      layout="responsive"
+                      width={200}
+                      height={300}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
