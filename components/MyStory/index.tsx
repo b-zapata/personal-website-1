@@ -20,6 +20,8 @@ const About = () => {
           />
           {/* <!-- Section Title End --> */}
 
+          {/* <!-- About One Start --> */}
+          {/*}
           <div className="mt-12.5 flex items-center gap-8 lg:gap-32.5">
             <motion.div
               variants={{
@@ -84,9 +86,10 @@ const About = () => {
               <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
             </motion.div>
           </div>
+          {*/}
+          {/* <!-- ===== About End ===== --> */}
         </div>
       </section>
-      {/* <!-- ===== About End ===== --> */}
 
       {/* <!-- ===== About One (Test) Start ===== --> */}
       <section>
@@ -111,13 +114,13 @@ const About = () => {
             >
               <div className="mb-8 block md:hidden">
                 <Image
-                  src="./images/about/family_4.png"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="./images/about/family_4.png"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="hidden dark:block"
                   fill
@@ -156,20 +159,15 @@ const About = () => {
               className="animate_right md:w-1/2"
             >
               <p>
-                I did five semesters at BYU before leaving as a volunteer
-                missionary for The Church of Jesus Christ of Latter-day Saints,
-                where I served in my native city of Santiago, Chile for a year,
-                and then in Rio de Janeiro, Brazil, for the remaining year of my
-                mission. I recently completed the Information Systems junior
-                core, and am currently preparing to start the integrated Masters
-                of Information Systems program at BYU. I am the youngest of four
-                siblings and the proud uncle of two nephews and three nieces. I
-                love trying out and learning new things—you can find a list of
-                my favorite hobbies and interests{" "}
-                <a href="/interests" className="text-primary">
-                  here
-                </a>
-                .
+                I was born in Santiago, Chile on 2001. When I was 8, I moved to
+                Antofagasta, in the north of Chile, where I lived most of my
+                teenage years. When I was 16, I came to the United States as an
+                international exchange student and attended Liahona Preparatory
+                Academy, where I did my senior year and graduated high school.
+                At age 17 I started studying at BYU. I took classes from varying
+                fields and got familiar with different career paths, and on my
+                sophomore year, I finally decided on majoring in Information
+                Systems.
               </p>
               <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
             </motion.div>
