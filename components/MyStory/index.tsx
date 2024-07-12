@@ -181,7 +181,8 @@ const About = () => {
       {/* <!-- ===== About One Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
-          <div className="flex flex-col-reverse items-center gap-8 md:flex-row lg:gap-32.5">
+          <div className="flex flex-col items-center gap-8 md:flex-row lg:gap-32.5">
+            {/* Image Section */}
             <motion.div
               variants={{
                 hidden: {
@@ -198,7 +199,9 @@ const About = () => {
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
               className="animate_left relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
+              style={{ order: 1 }} // Set order to 1 on all screens
             >
+              {/* Show image block on small screens, hide on medium and above */}
               <div className="mb-8 block md:hidden">
                 <Image
                   src="/images/about/me-casual_3.jpg"
@@ -213,6 +216,7 @@ const About = () => {
                   fill
                 />
               </div>
+              {/* Show image block on medium screens and above, hide on small screens */}
               <div className="hidden md:block">
                 <Image
                   src="/images/about/me-casual_3.jpg"
@@ -228,6 +232,7 @@ const About = () => {
                 />
               </div>
             </motion.div>
+            {/* Text Section */}
             <motion.div
               variants={{
                 hidden: {
@@ -244,17 +249,17 @@ const About = () => {
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
+              style={{ order: 2 }} // Set order to 2 on all screens
             >
               <p>
-                I was born in Santiago, Chile on 2001. When I was 8, I moved to
-                Antofagasta, in the north of Chile, where I lived most of my
-                teenage years. When I was 16, I came to the United States as an
+                I was born in Santiago, Chile in 2001. When I was 8, I moved to
+                Antofagasta in the north of Chile, where I lived most of my
+                teenage years. At 16, I came to the United States as an
                 international exchange student and attended Liahona Preparatory
                 Academy, where I did my senior year and graduated high school.
-                At age 17 I started studying at BYU. I took classes from varying
-                fields and got familiar with different career paths, and on my
-                sophomore year, I finally decided on majoring in Information
-                Systems.
+                At age 17, I started studying at BYU, exploring various fields
+                and career paths. In my sophomore year, I decided to major in
+                Information Systems.
               </p>
               <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white"></h3>
             </motion.div>
