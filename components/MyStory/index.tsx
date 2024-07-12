@@ -224,7 +224,13 @@ const About = () => {
                 <Image
                   src="./images/about/family_4.png"
                   alt="About"
-                  className="dark:hidden"
+                  className="hidden dark:block"
+                  fill
+                />
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="hidden dark:block"
                   width={588}
                   height={526.5}
                 />
