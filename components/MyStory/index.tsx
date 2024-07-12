@@ -146,18 +146,34 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
-              <Image
-                src="./images/about/family_4.png"
-                alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="./images/about/family_4.png"
-                alt="About"
-                className="hidden dark:block"
-                fill
-              />
+              <div className="mb-8 block md:hidden">
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="hidden dark:block"
+                  fill
+                />
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="hidden dark:block"
+                  fill
+                />
+              </div>
+              <div className="hidden md:block">
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="dark:hidden"
+                  fill
+                />
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="hidden dark:block"
+                  fill
+                />
+              </div>
             </motion.div>
           </div>
         </div>
@@ -231,8 +247,7 @@ const About = () => {
                   src="./images/about/family_4.png"
                   alt="About"
                   className="hidden dark:block"
-                  width={588}
-                  height={526.5}
+                  fill
                 />
               </div>
               <div className="hidden md:block">
