@@ -167,14 +167,13 @@ const About = () => {
       {/* <!-- ===== About Three (Test) Start ===== --> */}
       <section>
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col-reverse items-center gap-8 md:flex-row lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -210,7 +209,6 @@ const About = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -220,25 +218,36 @@ const About = () => {
               whileInView="visible"
               transition={{ duration: 1, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right relative mb-10 flex justify-center md:w-1/2 lg:block 2xl:-mr-7.5"
+              className="animate_right relative mx-auto aspect-[588/526.5] w-full md:w-1/2"
             >
-              <Image
-                src="./images/about/family_4.png"
-                alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="./images/about/family_4.png"
-                alt="About"
-                className="hidden dark:block"
-                fill
-              />
+              <div className="mb-8 block md:hidden">
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="dark:hidden"
+                  width={588}
+                  height={526.5}
+                />
+              </div>
+              <div className="hidden md:block">
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="dark:hidden"
+                  fill
+                />
+                <Image
+                  src="./images/about/family_4.png"
+                  alt="About"
+                  className="hidden dark:block"
+                  fill
+                />
+              </div>
             </motion.div>
           </div>
         </div>
       </section>
-      {/* <!-- ===== About Two End ===== --> */}
+      {/* <!-- ===== About Three (Test) End ===== --> */}
     </>
   );
 };
