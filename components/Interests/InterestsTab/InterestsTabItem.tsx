@@ -16,7 +16,7 @@ const InterestsTabItem = ({ interestTab }: { interestTab: InterestTab }) => {
               return (
                 <div
                   key={index}
-                  className={`mt-12.5 flex flex-col-reverse items-center gap-8 ${
+                  className={`mt-12.5 flex flex-col items-center gap-8 ${
                     isOdd ? "md:flex-row" : "md:flex-row-reverse"
                   } lg:gap-32.5`}
                 >
