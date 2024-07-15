@@ -10,16 +10,15 @@ const Hero = () => {
 
   return (
     <>
-      <section className="overflow-hidden pb-0 pt-35 md:pt-40 xl:pb-10 xl:pt-46">
+      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
-          <div className="flex items-center gap-8 lg:gap-32.5">
+          <div className="flex flex-col items-center gap-8 lg:flex-row lg:gap-32.5">
             <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -29,22 +28,22 @@ const Hero = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_left relative mx-auto flex hidden aspect-[588/526.5] items-center justify-center md:block md:w-1/2"
+              className="animate_left relative mx-auto aspect-[588/526.5] w-full md:block md:w-1/2"
             >
-              <div className="relative flex w-full justify-end">
+              <div className="relative flex w-full justify-center md:justify-end">
                 <Image
                   src="/images/icon/graduation-owl.png"
                   alt="About"
-                  className="mx-auto rounded-full object-cover dark:hidden"
+                  className="rounded-full object-cover dark:hidden"
                   width={1024}
                   height={1024}
                 />
                 <Image
                   src="/images/icon/graduation-owl.png"
                   alt="About"
-                  className="mx-auto hidden rounded-full object-cover dark:block"
+                  className="hidden rounded-full object-cover dark:block"
                   width={1024}
-                  height={1024}
+                  height={2000}
                 />
               </div>
             </motion.div>
@@ -54,7 +53,6 @@ const Hero = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -64,7 +62,7 @@ const Hero = () => {
               whileInView="visible"
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
-              className="animate_right items-center justify-center md:w-1/2"
+              className="animate_right w-full md:w-1/2"
             >
               <h1 className="relative mb-3 text-center text-3xl font-bold text-black dark:text-white xl:text-hero">
                 Education
