@@ -7,7 +7,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 1,
         title: "Piano",
-        imageDark: "/images/interests/piano-me_2.jpg",
+        imageDark: "/images/interests/piano-me_3.jpg",
         imageLight: "",
         description:
           "I started learning to play the piano when I was about 5. My mom was my first piano teacher, and she taught me mainly classical and church music. When I was 13 I joined the School of Music of Antofagasta, where I learned with professional musicians, attended master classes, and played as a soloist with the student orchestra. Today, I've expanded my repertoire to movie scores, jazz, pop, folk, and a few other music styles.",
@@ -16,7 +16,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 2,
         title: "Dancing",
-        imageDark: "/images/interests/dancing-1_2.jpg",
+        imageDark: "/images/interests/dancing-1_3.jpg",
         imageLight: "",
         description:
           "When I was a freshman at BYU, I took a social dance class and started attending the BYU Salsa and Country Swing Clubs. I knew right away that partner dancing would be one of my favorite hobbies for life. Since then, I have participated in competitions, choreographies, and served in different leadership positions, such as president of the BYU Salsa Club. My favorite styles are Salsa, Bachata, and West Coast Swing. Other styles I also enjoy are Country Swing, East Coast Swing, Merengue, Foxtrot, and several other ballroom styles.",
@@ -39,7 +39,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 1,
         title: "Soccer",
-        imageDark: "/images/interests/soccer.jpg",
+        imageDark: "/images/interests/soccer_2.jpg",
         imageLight: "",
         description:
           "Growing up in Chile, soccer was always in some way a part of my life. I was in preschool when I played my first few games of soccer, and I haven't stopped playing with friends since then. I can play in any position, but I enjoy midfielder, center back, and goalkeeper the most because of the game vision and play building I can make.",
@@ -48,7 +48,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 2,
         title: "Chess",
-        imageDark: "/images/interests/chess_2.jpg",
+        imageDark: "/images/interests/chess_3.jpg",
         imageLight: "",
         description:
           "I learned how to play chess when I was 5 years old. I never got too into it until I was 14, when I started to play with some friends at my local church community. Then, during the COVID-19 pandemic, I began to play every day on Chess.com, and I reached my peak ranking of 1200. I still play frequently today.",
@@ -57,7 +57,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 3,
         title: "Swimming",
-        imageDark: "/images/interests/swimmer_2.jpg",
+        imageDark: "/images/interests/swimmer_3.jpg",
         imageLight: "",
         description:
           "My parents got me into swimming when I was 10 years old, shortly after I almost drown at a school party because I didn't know how to swim. I learned all four swimming styles, and began to train every day. During training I realized that I was really close to the Chilean freestyle 50m national record for my age, so I decided I wanted to do it competitively. However, they closed my city's olympic pool when I was 13 for repairs. I never got back into competitive swimming, but I do it now as a hobby and as a way to stay fit.",
@@ -66,7 +66,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 4,
         title: "Boxing",
-        imageDark: "/images/interests/boxing-gloves_2.jpg",
+        imageDark: "/images/interests/boxing-gloves_3.jpg",
         imageLight: "",
         description:
           "I got into boxing on May 2024. Even though I don't do sparring (boxing with someone else), I still have a lot of fun training. Boxing is a very fun way to release stress and stay fit! Did you know you can burn twice as many calories during a boxing workout session than during a regular gym session?",
