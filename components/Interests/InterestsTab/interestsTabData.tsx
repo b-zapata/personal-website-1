@@ -25,7 +25,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 3,
         title: "Singing",
-        imageDark: "/images/interests/mco.jpg",
+        imageDark: "/images/interests/mco_3.jpg",
         imageLight: "",
         description:
           "I have been involved in choirs in my local church community since I was a child. When I was an exchange student during my senior year of high school, I joined Millennial Choirs and Orchestras. I participated in the youth choir for a year, and in the grand chorus for another year after I graduated high school. I also participated in the multicultural choir that would have sang at the April 2020 General Conference of The Church of Jesus Christ of Latter-day Saints, which went online because of COVID. I have also conducted choirs at my local church community and sang in a few ensambles with friends.",
@@ -83,7 +83,7 @@ const interestsTabData: InterestTab[] = [
         imageDark: "/images/interests/mission-2_2.jpg",
         imageLight: "",
         description:
-          "I have been a practicing Christian since I was a child. To me, true Christianity is shown through actions rather than words. Going out of my way to perform simple acts of kindness and service to those around me, starting by my family, is one of the best ways to show my beliefs. I have been actively involved in volunteer service in my local church communtiy since I was young, the most remarkable so far being my service for two years as a missionary for The Church of Jesus Christ of Latter-day Saints.",
+          "I have been a practicing Christian since I was a child. To me, true Christianity is shown through actions rather than words. Going out of my way to perform simple acts of kindness and service to those around me, starting by my family, is one of the best ways to show my beliefs. I have been actively involved in volunteer service in my local church communtiy since I was young, the most remarkable so far being my service for two years as a missionary for The Church of Jesus Christ of Latter-day Saints in Santiago, Chile, and Rio de Janeiro, Brazil.",
         link: "",
       },
       {
@@ -98,7 +98,7 @@ const interestsTabData: InterestTab[] = [
       {
         interestId: 3,
         title: "Suits (TV Series)",
-        imageDark: "/images/interests/suits-poster_2.jpg",
+        imageDark: "/images/interests/suits-poster_3.jpg",
         imageLight: "",
         description:
           "I love the fast pace and adrenaline of this show. My favorite character is Harvey Specter, and my favorite seasons are 1, 5, and 7.",
