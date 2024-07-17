@@ -43,14 +43,14 @@ const Header = () => {
               alt="logo"
               width={119.03}
               height={30}
-              className="hidden w-1/2 dark:block"
+              className="hidden w-1/2 dark:block lg:w-3/4"
             />
             <Image
               src="/images/logo/signature-light_5.png"
               alt="logo"
               width={119.03}
               height={30}
-              className="w-1/2 dark:hidden"
+              className="w-1/2 dark:hidden lg:w-3/4"
             />
           </a>
 
