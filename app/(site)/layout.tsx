@@ -38,7 +38,6 @@ export default function RootLayout({
           <ToasterContext />
           {children}
           <ScrollToTop />
-          <Footer />
         </ThemeProvider>
         <Script
           strategy="afterInteractive"
