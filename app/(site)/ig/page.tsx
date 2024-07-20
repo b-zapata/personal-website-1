@@ -1,12 +1,8 @@
-"use client"; // Add this at the top
+"use client";
 
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Hero from "@/components/Hero";
-import Feature from "@/components/Features";
-import Technologies from "@/components/Technologies";
-import MyStory from "@/components/MyStory";
 
 // Inline type declaration for window.gtag
 declare global {
@@ -45,10 +41,6 @@ export default function Home() {
       </Head>
       <main>
         <p>Redirecting...</p>
-        <Hero />
-        <Feature />
-        <Technologies />
-        <MyStory />
       </main>
     </>
   );
