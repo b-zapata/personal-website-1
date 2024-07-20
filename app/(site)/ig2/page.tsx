@@ -1,4 +1,6 @@
 // pages/redirect.js
+"use client"; // This marks the file as a Client Component
+
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -8,7 +10,7 @@ export default function RedirectPage() {
   useEffect(() => {
     // Redirect on the client side
     router.push("/");
-  }, []);
+  }, [router]);
 
   return null;
 }
