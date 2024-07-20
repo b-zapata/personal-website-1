@@ -1,12 +1,12 @@
 "use client"; // Add this at the top
 
-import { Metadata } from "next";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import Head from "next/head";
 import Hero from "@/components/Hero";
 import Feature from "@/components/Features";
 import Technologies from "@/components/Technologies";
 import MyStory from "@/components/MyStory";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
 
 // Inline type declaration for window.gtag
 declare global {
@@ -14,12 +14,6 @@ declare global {
     gtag: (...args: any[]) => void;
   }
 }
-
-export const metadata: Metadata = {
-  title: "(IG) Redirecting to Benjamin's Portfolio Website...",
-  description: "Redirecting to Benjamin's portfolio website from Instagram...",
-  // other metadata
-};
 
 export default function Home() {
   const router = useRouter();
@@ -40,12 +34,22 @@ export default function Home() {
   }, [router]);
 
   return (
-    <main>
-      <p>Redirecting...</p>
-      <Hero />
-      <Feature />
-      <Technologies />
-      <MyStory />
-    </main>
+    <>
+      <Head>
+        <title>(IG) Redirecting to Benjamin's Portfolio Website...</title>
+        <meta
+          name="description"
+          content="Redirecting to Benjamin's portfolio website from Instagram..."
+        />
+        {/* Other metadata can be added here */}
+      </Head>
+      <main>
+        <p>Redirecting...</p>
+        <Hero />
+        <Feature />
+        <Technologies />
+        <MyStory />
+      </main>
+    </>
   );
 }
