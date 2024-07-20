@@ -1,17 +1,12 @@
+"use client"; // Add this at the top
+
 import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Feature from "@/components/Features";
 import Technologies from "@/components/Technologies";
-import Endorsement from "@/components/Endorsement";
 import MyStory from "@/components/MyStory";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-
-export const metadata: Metadata = {
-  title: "(IG) Redirecting to Benjamin's Portfolio Website...",
-  description: "Redirecting to Benjamin's portfolio website from Instagram...",
-  // other metadata
-};
 
 // Inline type declaration for window.gtag
 declare global {
@@ -20,12 +15,18 @@ declare global {
   }
 }
 
+export const metadata: Metadata = {
+  title: "(IG) Redirecting to Benjamin's Portfolio Website...",
+  description: "Redirecting to Benjamin's portfolio website from Instagram...",
+  // other metadata
+};
+
 export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
     // Log the redirect event to Google Analytics
-    if (typeof window !== "undefined") {
+    if (typeof window !== "undefined" && window.gtag) {
       window.gtag("event", "redirect", {
         event_category: "navigation",
         event_label: "Redirect to homepage",
