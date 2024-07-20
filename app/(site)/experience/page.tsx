@@ -3,8 +3,8 @@ import Hero from "@/components/Experience/Hero";
 import ExperienceTab from "@/components/Experience/ExperienceTab";
 
 export const metadata: Metadata = {
-  title: "Benjamin's Portfolio",
-  description: "This is Benjamin Zapata's portfolio",
+  title: "Benjamin's Experience",
+  description: "This are some of Benjamin's professional experiences.",
   // other metadata
 };
 

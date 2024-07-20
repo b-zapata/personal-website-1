@@ -4,8 +4,8 @@ import Degrees from "@/components/Education/Degrees";
 import Courses from "@/components/Education/Courses";
 
 export const metadata: Metadata = {
-  title: "Benjamin's Portfolio",
-  description: "This is Benjamin Zapata's portfolio",
+  title: "Benjamin's Education",
+  description: "This is Benjamin's education.",
   // other metadata
 };
 

@@ -3,8 +3,8 @@ import Hero from "@/components/Projects/Hero";
 import ProjectsTab from "@/components/Projects/ProjectsTab";
 
 export const metadata: Metadata = {
-  title: "Benjamin's Portfolio",
-  description: "This is Benjamin Zapata's portfolio",
+  title: "Benjamin's Projets",
+  description: "This are some of Benjamin's projects.",
   // other metadata
 };
 
