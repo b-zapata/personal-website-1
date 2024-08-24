@@ -10,16 +10,14 @@ export const testimonialData: Testimonial[] = [
     name: "Craig Cardon",
     designation: "IT Architect @ BYU Student Life Technology",
     image: craigCardon,
-    content:
-      "Benjamin is an outstanding employee. He is well organized and efficient, able to accomplish a lot in the short blocks of time that students typically work. He will be a tremendous asset to any organization. He is a true professional and will be able to quickly add value to any endeavor. It is my pleasure to give him my recommendation.",
+    content: `"Benjamin is an outstanding employee. He is well organized and efficient, able to accomplish a lot in the short blocks of time that students typically work. He will be a tremendous asset to any organization. He is a true professional and will be able to quickly add value to any endeavor. It is my pleasure to give him my recommendation."`,
   },
   {
     id: 2,
     name: "Tyler Jarvis, PhD",
     designation: "Director and Co-Founder @ BYU ACME Program",
     image: tylerJarvis,
-    content:
-      "Ben is professional and efficient at finding out what we need, and then he executes it promptly and well. He has also come up with a lot of great ideas for improving our website--not just its appearance, but also its effectiveness at meeting the neds of our users. Finally, he is fast at learning new things: he quickly mastered the practically-incomprehensible web development platform that our university requires us to use, despite its very counterintuitive interfaces. I really wish we could keep him, but like all students, he'll soon graduate and leave us. You definitely should hire him.",
+    content: `"Ben is professional and efficient at finding out what we need, and then he executes it promptly and well. He has also come up with a lot of great ideas for improving our website--not just its appearance, but also its effectiveness at meeting the neds of our users. Finally, he is fast at learning new things: he quickly mastered the practically-incomprehensible web development platform that our university requires us to use, despite its very counterintuitive interfaces. I really wish we could keep him, but like all students, he'll soon graduate and leave us. You definitely should hire him."`,
   },
   {
     id: 3,
