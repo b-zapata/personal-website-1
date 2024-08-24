@@ -10,7 +10,11 @@ export const testimonialData: Testimonial[] = [
     name: "Craig Cardon",
     designation: "IT Architect @ BYU Student Life Technology",
     image: craigCardon,
-    content: `"Ben has been a most valued and outstanding employee. He is well organized and efficient, able to accomplish a lot in the short blocks of time that students typically work. He is also very good at analyzing business processes and determining an appropriate work flow. He has also been instrumental in training other employees on the Mendix platform. He works well with others and gets along with everyone in the department. His ability to balance work and school has been impressive and he is often sharing the knowledge he gains to help others. In the rare cases he has made mistakes he is quick to acknowledge them and work to remediate the situtation.\n\nBenjamin will be a tremendous asset to any organization. He is a true professional and will be able to quickly add value to any endeavor. It is my pleasure to give him my recommendation. If you have any questions please contact me." \n\n See the full letter of recommendation on the featured section of my LinkedIn profile`,
+    content: `"Ben has been a most valued and outstanding employee. He is well organized and efficient, able to accomplish a lot in the short blocks of time that students typically work. He is also very good at analyzing business processes and determining an appropriate work flow. He has also been instrumental in training other employees on the Mendix platform. He works well with others and gets along with everyone in the department. His ability to balance work and school has been impressive and he is often sharing the knowledge he gains to help others. In the rare cases he has made mistakes he is quick to acknowledge them and work to remediate the situtation. \n
+    \n
+    Benjamin will be a tremendous asset to any organization. He is a true professional and will be able to quickly add value to any endeavor. It is my pleasure to give him my recommendation. If you have any questions please contact me." \n
+    \n 
+    See the full letter of recommendation on the featured section of my LinkedIn profile`,
   },
   {
     id: 2,
