@@ -90,7 +90,7 @@ const experiencesTabData: ExperienceTab[] = [
         endDate: "Present",
         title: "BYU Salsa Club President",
         employer: "BYU Student Association",
-        logo: "/images/logo/byu-salsa-club-logo-round-2.png",
+        logo: "/images/logo/byu-salsa-club-logo-new.png",
         location: "Provo, UT",
         bulletPoint1:
           "Led a team of ~15 volunteers in increasing average attendance from 0 to 60 within one semester",
