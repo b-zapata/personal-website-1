@@ -48,13 +48,13 @@ const About = () => {
               {/* Show image block on small screens, hide on medium and above */}
               <div className="mb-8 block md:hidden">
                 <Image
-                  src="/images/about/me-casual-heashot.jpg"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="/images/about/me-casual-headshot.jpg"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="hidden dark:block"
                   fill
@@ -63,13 +63,13 @@ const About = () => {
               {/* Show image block on medium screens and above, hide on small screens */}
               <div className="hidden md:block">
                 <Image
-                  src="/images/about/me-casual-headshot.jpg"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="dark:hidden"
                   fill
                 />
                 <Image
-                  src="/images/about/me-casual-headshot.jpg"
+                  src="/images/about/me-casual_3.jpg"
                   alt="About"
                   className="hidden dark:block"
                   fill
