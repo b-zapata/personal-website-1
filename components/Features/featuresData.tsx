@@ -9,20 +9,14 @@ const featuresData: Feature[] = [
   },
   {
     id: 2,
-    icon: "/images/icon/icon-01.svg",
-    title: "Data Analysis",
-    description: "",
-  },
-  {
-    id: 3,
     icon: "/images/icon/icon-06.svg",
     title: "Machine Learning",
     description: "",
   },
   {
-    id: 4,
-    icon: "/images/icon/icon-03.svg",
-    title: "UI/UX Design",
+    id: 3,
+    icon: "/images/icon/icon-cloud-architect.svg",
+    title: "Cloud Architect",
     description: "",
   },
 ];
