@@ -10,9 +10,9 @@ const Hero = () => {
 
   // Define an array of dynamic text values
   const dynamicTextValues = [
-    "Developer",
-    "Data Enthusiast",
-    "Cybersecurity Geek",
+    "Full-Stack Developer",
+    "Machine Learning Instructor",
+    "Cloud Engineer",
     "Pianist",
     "Social Dancer",
   ];
