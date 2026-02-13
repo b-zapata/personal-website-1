@@ -16,7 +16,7 @@ const featuresData: Feature[] = [
   {
     id: 3,
     icon: "/images/icon/icon-cloud-architect.svg",
-    title: "Cloud Architect",
+    title: "Cloud Infrastructure",
     description: "",
   },
 ];
