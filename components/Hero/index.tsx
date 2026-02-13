@@ -38,13 +38,13 @@ const Hero = () => {
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 <Typical
                   steps={[
-                    "a Developer.",
+                    "a Full-Stack Developer.",
                     5000,
-                    "a Data Enthusiast.",
+                    "a Machine Learning Instructor.",
                     5000,
-                    "a Cybersecurity Geek.",
+                    "a Cloud Engineer.",
                     5000,
-                    "a UI/UX Designer.",
+                    "a Pianist & Social Dancer.",
                     5000,
                   ]}
                   loop={Infinity}
